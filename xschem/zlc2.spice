@@ -1,0 +1,6 @@
+** sch_path: /home/me/Desktop/Project/sky130_adder_4bit/xschem/zlc2.sch
+.subckt zlc2 HI V LO P VDD GND
+*.PININFO HI:I LO:I V:O P:O VDD:I GND:I
+x1 HI LO GND GND VDD VDD V sky130_fd_sc_hd__or2_1
+x2 HI GND GND VDD VDD P sky130_fd_sc_hd__inv_1
+.ends

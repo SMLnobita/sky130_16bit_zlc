@@ -1,0 +1,75 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1781672446
+<< pwell >>
+rect 41 -1019 146 -837
+rect 332 -1002 383 -845
+<< viali >>
+rect 276 -665 310 -631
+rect -290 -857 -256 -823
+rect -143 -828 -109 -794
+rect 183 -824 217 -790
+rect 32 -930 66 -896
+<< metal1 >>
+rect -394 -544 510 -448
+rect 270 -631 316 -619
+rect 270 -665 276 -631
+rect 310 -634 316 -631
+rect 310 -662 510 -634
+rect 310 -665 316 -662
+rect 270 -677 316 -665
+rect -394 -728 214 -700
+rect -140 -788 -112 -728
+rect 186 -784 214 -728
+rect -155 -794 -97 -788
+rect -296 -823 -250 -811
+rect -296 -826 -290 -823
+rect -394 -854 -290 -826
+rect -296 -857 -290 -854
+rect -256 -857 -250 -823
+rect -155 -828 -143 -794
+rect -109 -828 -97 -794
+rect -155 -834 -97 -828
+rect 171 -790 229 -784
+rect 171 -824 183 -790
+rect 217 -824 229 -790
+rect 171 -830 229 -824
+rect -296 -869 -250 -857
+rect 20 -896 78 -890
+rect 20 -930 32 -896
+rect 66 -899 78 -896
+rect 66 -927 510 -899
+rect 66 -930 78 -927
+rect 20 -936 78 -930
+rect -394 -1088 510 -992
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1777291125
+transform 1 0 380 0 1 -1040
+box -38 -48 130 592
+use sky130_fd_sc_hd__or2_1  x1 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1777291125
+transform 1 0 -356 0 1 -1040
+box -38 -48 498 592
+use sky130_fd_sc_hd__inv_1  x2 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1777291125
+transform 1 0 104 0 1 -1040
+box -38 -48 314 592
+<< labels >>
+rlabel metal1 -394 -854 -366 -826 1 LO
+port 2 n signal input
+rlabel metal1 482 -662 510 -634 1 P
+port 3 n signal output
+rlabel metal1 -394 -544 -356 -448 1 VDD
+port 5 n power input
+rlabel metal1 472 -544 510 -448 1 VDD
+port 5 n power input
+rlabel metal1 -394 -1088 -356 -992 1 GND
+port 6 n ground input
+rlabel metal1 472 -1088 510 -992 1 GND
+port 6 n ground input
+rlabel metal1 -394 -728 -366 -700 1 HI
+port 1 n signal input
+rlabel metal1 482 -927 510 -899 1 V
+port 4 n signal output
+<< end >>

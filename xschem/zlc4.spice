@@ -1,0 +1,19 @@
+** sch_path: /home/me/Desktop/Project/sky130_adder_4bit/xschem/zlc4.sch
+.subckt zlc4 A3 V A2 P1 A1 A0 P0 VDD GND
+*.PININFO A3:I A2:I A1:I A0:I V:O P1:O P0:O VDD:I GND:I
+x3 net1 net2 GND GND VDD VDD V sky130_fd_sc_hd__or2_1
+x4 net1 GND GND VDD VDD P1 sky130_fd_sc_hd__inv_1
+x5 net3 net4 P1 GND GND VDD VDD P0 sky130_fd_sc_hd__mux2_1
+x1 A3 net1 A2 net3 VDD GND zlc2
+x2 A1 net2 A0 net4 VDD GND zlc2
+.ends
+
+* expanding   symbol:  zlc2.sym # of pins=6
+** sym_path: /home/me/Desktop/Project/sky130_adder_4bit/xschem/zlc2.sym
+** sch_path: /home/me/Desktop/Project/sky130_adder_4bit/xschem/zlc2.sch
+.subckt zlc2 HI V LO P VDD GND
+*.PININFO HI:I LO:I V:O P:O VDD:I GND:I
+x1 HI LO GND GND VDD VDD V sky130_fd_sc_hd__or2_1
+x2 HI GND GND VDD VDD P sky130_fd_sc_hd__inv_1
+.ends
+

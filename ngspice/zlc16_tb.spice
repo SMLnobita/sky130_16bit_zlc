@@ -1,0 +1,86 @@
+* =============================================================
+* Testbench: 16-bit Zero Leading Counter: A[3] -> Y[0] delay
+* Process  : SkyWater SKY130 (sky130_fd_sc_hd)
+* Stimulus : Toggle A[3] while A[15:4]=0000, A[2]=1, A[1:0]=00
+*            This makes A[3] -> Y[0] an observable long path.
+* Measure  : propagation delay from A[3] 50% to Y[0] 50%
+* =============================================================
+
+* ---- Include PDK libs ----------------------------------------
+.lib $PDK_ROOT/$PDK/libs.tech/combined/sky130.lib.spice tt
+
+* uncomment this line if DUT is a xschem netlist
+*.include $PDK_ROOT/$PDK/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+* ---- Include DUT ---------------------------------------------
+.include $PWD/../magic/zlc16.rcx.spice
+
+* ---- Global supply -------------------------------------------
+.global VDD VSS
+Vvdd VDD 0 DC 1.8
+Vvss VSS 0 DC 0
+
+* ---- Stimulus sources ----------------------------------------
+* A[15:4] = 0000_0000_0000
+Va15 A15 0 DC 0
+Va14 A14 0 DC 0
+Va13 A13 0 DC 0
+Va12 A12 0 DC 0
+Va11 A11 0 DC 0
+Va10 A10 0 DC 0
+Va9  A9  0 DC 0
+Va8  A8  0 DC 0
+Va7  A7  0 DC 0
+Va6  A6  0 DC 0
+Va5  A5  0 DC 0
+Va4  A4  0 DC 0
+
+* A[2] = 1, A[1:0] = 00
+Va2 A2 0 DC 1.8
+Va1 A1 0 DC 0
+Va0 A0 0 DC 0
+
+* A[3]: step low -> high at t=2ns, then high -> low at t=12ns
+* Use piecewise-linear to get clean 50ps edges
+Va3 A3 0 PWL(
++ 0ns    0
++ 2ns    0
++ 2.05ns 1.8
++ 12ns   1.8
++ 12.05ns 0
++ 20ns   0
++ )
+
+* ---- DUT: 16-bit Zero Leading Counter ------------------------
+* Extracted subckt order:
+* .subckt zlc16 A[0] A[1] ... A[15] Y[0] Y[1] Y[2] Y[3] Y[4] VDD GND
+*
+* The extracted GND pin is connected to VSS in this testbench.
+Xzlc16 A0 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 Y0 Y1 Y2 Y3 Y4 VDD VSS zlc16
+
+* ---- Load capacitance ----------------------------------------
+Cload_y0 Y0 0 0.01pF
+Cload_y1 Y1 0 0.01pF
+Cload_y2 Y2 0 0.01pF
+Cload_y3 Y3 0 0.01pF
+Cload_y4 Y4 0 0.01pF
+
+* ---- Batch mode ----------------------------------------------
+* run ngspice with -b flag, -r flag is used to write raw waveform file
+.tran 1ps 20ns
+.save v(A3) v(A2) v(Y0) v(Y1) v(Y2) v(Y3) v(Y4)
+
+
+*----- Interactive mode----------------------------------------
+* run ngspice without -b or -r flag to enter interactive mode
+* command run one by one sequentially, add quit at the end to exit ngspice
+* useful for scripting with if/else, for loop logic
+*.control
+*tran 1ps 20ns
+*write zlc16.raw all
+*meas tran tpd_a3_y0_fall trig v(A3) val=0.9 rise=1 targ v(Y0) val=0.9 fall=1
+*meas tran tpd_a3_y0_rise trig v(A3) val=0.9 fall=1 targ v(Y0) val=0.9 rise=1
+*print tpd_a3_y0_fall tpd_a3_y0_rise
+*.endc
+
+.end

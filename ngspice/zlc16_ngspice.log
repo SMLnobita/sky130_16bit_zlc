@@ -1,0 +1,1962 @@
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: * =============================================================
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+binary raw file "zlc16.rcx.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+No. of Data Columns : 8  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+vss                                          0
+a15                                          0
+a14                                          0
+a13                                          0
+a12                                          0
+a11                                          0
+a10                                          0
+a9                                           0
+a8                                           0
+a7                                           0
+a6                                           0
+a5                                           0
+a4                                           0
+a2                                         1.8
+a1                                           0
+a0                                           0
+a3                                           0
+xzlc16.a[12].t0                              0
+xzlc16.gnd.t243                    1.02055e-11
+xzlc16.gnd.t242                    1.63889e-09
+xzlc16.x1.x1.x3.b                  5.47519e-09
+xzlc16.gnd.t25                      8.1581e-10
+xzlc16.gnd.t24                     1.28253e-09
+xzlc16.x2.x6.a1                            1.8
+xzlc16.vdd.t8                              1.8
+xzlc16.a[3].t0                               0
+xzlc16.vdd.t227                            1.8
+xzlc16.vdd.t226                            1.8
+xzlc16.gnd.t32                     1.02802e-11
+xzlc16.gnd.t31                      1.0488e-09
+xzlc16.x1.x4.a                     5.47515e-09
+xzlc16.gnd.t27                     8.15769e-10
+xzlc16.gnd.t26                       1.087e-10
+xzlc16.gnd.t71                     7.28906e-10
+xzlc16.gnd.t70                     3.87366e-10
+xzlc16.vdd.t219                            1.8
+xzlc16.a[15].t3                              0
+xzlc16.vdd.t218                            1.8
+xzlc16.x10.a                       5.42987e-09
+xzlc16.gnd.t128                    9.35522e-10
+xzlc16.x1.x6.a0                            1.8
+xzlc16.gnd.t28                     1.32968e-10
+xzlc16.vdd.t208                            1.8
+xzlc16.a[11].t3                              0
+xzlc16.vdd.t207                            1.8
+xzlc16.x1.p2                               1.8
+xzlc16.vdd.t51                             1.8
+xzlc16.x11.a                               1.8
+xzlc16.vdd.t103                            1.8
+xzlc16.vdd.t102                            1.8
+xzlc16.vdd.t99                             1.8
+xzlc16.x8.a                                1.8
+xzlc16.vdd.t98                             1.8
+xzlc16.vdd.t150                            1.8
+xzlc16.vdd.t149                            1.8
+xzlc16.a[2].t0                             1.8
+xzlc16.vdd.t238                            1.8
+xzlc16.x1.x5.a0                            1.8
+xzlc16.gnd.t41                     2.92907e-10
+xzlc16.vdd.t68                             1.8
+xzlc16.vdd.t67                             1.8
+xzlc16.a[5].t0                               0
+xzlc16.vdd.t231                            1.8
+xzlc16.vdd.t230                            1.8
+xzlc16.x2.x2.x4.a                          1.8
+xzlc16.vdd.t7                              1.8
+xzlc16.vdd.t6                              1.8
+xzlc16.vdd.t120                            1.8
+xzlc16.vdd.t119                            1.8
+xzlc16.x9.a                                1.8
+xzlc16.gnd.t108                    1.69572e-09
+xzlc16.gnd.t107                    2.22838e-10
+xzlc16.x1.x2.x4.a                  5.47534e-09
+xzlc16.vdd.t1                              1.8
+xzlc16.vdd.t0                              1.8
+xzlc16.gnd.t51                      2.2942e-09
+xzlc16.gnd.t50                     7.56856e-11
+xzlc16.x1.p0                               1.8
+xzlc16.vdd.t64                             1.8
+xzlc16.vdd.t63                             1.8
+xzlc16.gnd.t188                    6.44209e-10
+xzlc16.x2.x5.a1                    5.20961e-09
+xzlc16.gnd.t187                    2.15999e-09
+xzlc16.vdd.t156                            1.8
+xzlc16.x2.x5.a0                            1.8
+xzlc16.vdd.t155                            1.8
+xzlc16.gnd.t155                    6.32214e-10
+xzlc16.gnd.t154                    4.61891e-10
+xzlc16.gnd.t126                    1.02857e-09
+xzlc16.x2.v                                1.8
+xzlc16.gnd.t125                    3.43671e-10
+xzlc16.a[4].t0                               0
+xzlc16.vdd.t239                            1.8
+xzlc16.vdd.t89                             1.8
+xzlc16.vdd.t88                             1.8
+xzlc16.x1.p1                               1.8
+xzlc16.vdd.t55                             1.8
+xzlc16.vdd.t54                             1.8
+xzlc16.vdd.t93                             1.8
+xzlc16.vdd.t92                             1.8
+xzlc16.x2.p2                               1.8
+xzlc16.gnd.t117                    2.29427e-09
+xzlc16.gnd.t116                    1.04347e-09
+xzlc16.vdd.t187                            1.8
+xzlc16.vdd.t186                            1.8
+xzlc16.gnd.t219                    7.29001e-10
+xzlc16.a[9].t1                               0
+xzlc16.gnd.t218                    1.71391e-09
+xzlc16.vdd.t110                            1.8
+xzlc16.vdd.t109                            1.8
+xzlc16.gnd.t54                     8.15732e-10
+xzlc16.x1.v                        5.47511e-09
+xzlc16.gnd.t53                     5.28757e-18
+xzlc16.gnd.t86                     7.28929e-10
+xzlc16.gnd.t85                     1.53955e-09
+xzlc16.gnd.t75                     2.99219e-11
+xzlc16.gnd.t74                     7.47878e-10
+xzlc16.vdd.t128                            1.8
+xzlc16.vdd.t127                            1.8
+xzlc16.vdd.t37                             1.8
+xzlc16.vdd.t36                             1.8
+xzlc16.x1.x5.a1                            1.8
+xzlc16.vdd.t58                             1.8
+xzlc16.vdd.t57                             1.8
+xzlc16.x2.x1.x4.a                  5.47535e-09
+xzlc16.vdd.t162                            1.8
+xzlc16.vdd.t161                            1.8
+xzlc16.y[3].t0                             1.8
+xzlc16.gnd.t186                    1.74995e-09
+xzlc16.gnd.t185                    2.17816e-09
+xzlc16.gnd.t161                    2.18785e-11
+xzlc16.gnd.t160                    5.73598e-10
+xzlc16.x1.x1.x5.a0                         1.8
+xzlc16.vdd.t29                             1.8
+xzlc16.x1.x2.x5.a0                         1.8
+xzlc16.vdd.t79                             1.8
+xzlc16.gnd.t182                    7.28984e-10
+xzlc16.a[13].t1                              0
+xzlc16.gnd.t181                     2.0505e-09
+xzlc16.y[3].t1                             1.8
+xzlc16.vdd.t185                            1.8
+xzlc16.vdd.t184                            1.8
+xzlc16.a[7].t0                               0
+xzlc16.vdd.t235                            1.8
+xzlc16.vdd.t234                            1.8
+xzlc16.vdd.t168                            1.8
+xzlc16.vdd.t167                            1.8
+xzlc16.vdd.t25                             1.8
+xzlc16.vdd.t24                             1.8
+xzlc16.gnd.t34                     7.28943e-10
+xzlc16.x1.x1.x4.a                  5.47528e-09
+xzlc16.gnd.t33                     1.90488e-10
+xzlc16.x1.x2.x3.b                  5.47521e-09
+xzlc16.vdd.t18                             1.8
+xzlc16.vdd.t17                             1.8
+xzlc16.vdd.t27                             1.8
+xzlc16.vdd.t26                             1.8
+xzlc16.x1.x3.b                     5.47513e-09
+xzlc16.vdd.t76                             1.8
+xzlc16.vdd.t75                             1.8
+xzlc16.gnd.t61                     2.29495e-09
+xzlc16.gnd.t60                     1.05978e-10
+xzlc16.gnd.t134                    7.11446e-10
+xzlc16.x8.b                                1.8
+xzlc16.gnd.t133                    7.48655e-10
+xzlc16.x2.x4.a                     5.47511e-09
+xzlc16.gnd.t195                    2.18333e-11
+xzlc16.gnd.t194                    9.23878e-10
+xzlc16.vdd.t87                             1.8
+xzlc16.vdd.t86                             1.8
+xzlc16.vdd.t193                            1.8
+xzlc16.vdd.t192                            1.8
+xzlc16.gnd.t101                    2.29441e-09
+xzlc16.gnd.t100                    1.58875e-11
+xzlc16.a[6].t0                               0
+xzlc16.vdd.t240                            1.8
+xzlc16.x2.x1.x5.a1                         1.8
+xzlc16.vdd.t165                            1.8
+xzlc16.a[11].t0                              0
+xzlc16.gnd.t215                    2.19305e-11
+xzlc16.gnd.t214                    1.86213e-09
+xzlc16.gnd.t80                     6.46713e-11
+xzlc16.gnd.t143                    1.45149e-09
+xzlc16.gnd.t142                    5.71927e-11
+xzlc16.gnd.t167                    3.19307e-10
+xzlc16.gnd.t166                    6.36255e-10
+xzlc16.gnd.t8                      3.33147e-10
+xzlc16.vdd.t112                            1.8
+xzlc16.vdd.t111                            1.8
+xzlc16.vdd.t144                            1.8
+xzlc16.vdd.t143                            1.8
+xzlc16.gnd.t152                    3.23586e-10
+xzlc16.gnd.t151                    2.57518e-09
+xzlc16.gnd.t38                     2.29474e-09
+xzlc16.gnd.t37                     2.22605e-11
+xzlc16.x2.p0                               1.8
+xzlc16.vdd.t85                             1.8
+xzlc16.vdd.t160                            1.8
+xzlc16.vdd.t159                            1.8
+xzlc16.vdd.t154                            1.8
+xzlc16.gnd.t233                    2.18602e-11
+xzlc16.a[3].t3                               0
+xzlc16.x2.x2.x5.a0                         1.8
+xzlc16.gnd.t232                    8.69249e-10
+xzlc16.gnd.t12                     3.02933e-11
+xzlc16.gnd.t11                     1.35973e-10
+xzlc16.vdd.t48                             1.8
+xzlc16.vdd.t47                             1.8
+xzlc16.x2.x2.x5.a1                         1.8
+xzlc16.gnd.t178                    8.99834e-10
+xzlc16.gnd.t164                    1.51926e-10
+xzlc16.gnd.t149                    3.19352e-10
+xzlc16.gnd.t148                    2.72139e-10
+xzlc16.x2.p1                       5.42995e-09
+xzlc16.vdd.t121                            1.8
+xzlc16.y[0].t0                             1.8
+xzlc16.gnd.t141                    1.75034e-09
+xzlc16.gnd.t140                    1.80216e-09
+xzlc16.a[15].t0                              0
+xzlc16.gnd.t225                     2.1967e-11
+xzlc16.gnd.t224                     9.7732e-10
+xzlc16.gnd.t29                     6.72167e-10
+xzlc16.y[0].t1                             1.8
+xzlc16.vdd.t142                            1.8
+xzlc16.vdd.t141                            1.8
+xzlc16.vdd.t177                            1.8
+xzlc16.gnd.t245                    1.02306e-11
+xzlc16.a[0].t1                               0
+xzlc16.gnd.t244                     7.7139e-10
+xzlc16.vdd.t44                             1.8
+xzlc16.vdd.t43                             1.8
+xzlc16.gnd.t91                     6.32401e-10
+xzlc16.gnd.t90                      1.0636e-09
+xzlc16.gnd.t249                     1.0198e-11
+xzlc16.a[4].t1                               0
+xzlc16.gnd.t248                    7.89096e-10
+xzlc16.vdd.t5                              1.8
+xzlc16.vdd.t4                              1.8
+xzlc16.x1.x1.x5.a1                         1.8
+xzlc16.vdd.t30                             1.8
+xzlc16.x1.x2.x5.a1                         1.8
+xzlc16.vdd.t19                             1.8
+xzlc16.gnd.t19                      8.8035e-11
+xzlc16.vdd.t221                            1.8
+xzlc16.a[1].t1                               0
+xzlc16.vdd.t220                            1.8
+xzlc16.gnd.t95                     6.34379e-10
+xzlc16.gnd.t94                     2.27103e-09
+xzlc16.vdd.t105                            1.8
+xzlc16.vdd.t104                            1.8
+xzlc16.gnd.t79                     3.20164e-10
+xzlc16.gnd.t78                     4.67278e-11
+xzlc16.gnd.t175                    4.23227e-10
+xzlc16.x2.x1.x5.a0                         1.8
+xzlc16.gnd.t165                    6.65192e-10
+xzlc16.vdd.t42                             1.8
+xzlc16.vdd.t41                             1.8
+xzlc16.vdd.t78                             1.8
+xzlc16.vdd.t77                             1.8
+xzlc16.a[5].t2                               0
+xzlc16.gnd.t237                    7.29015e-10
+xzlc16.gnd.t236                    1.20001e-09
+xzlc16.a[1].t2                               0
+xzlc16.gnd.t229                    7.29158e-10
+xzlc16.gnd.t228                    1.15751e-09
+xzlc16.a[12].t1                              0
+xzlc16.vdd.t236                            1.8
+xzlc16.gnd.t30                     4.39745e-10
+xzlc16.a[8].t1                               0
+xzlc16.vdd.t201                            1.8
+xzlc16.gnd.t10                     1.69625e-09
+xzlc16.x1.x6.a1                            1.8
+xzlc16.gnd.t9                      1.26351e-10
+xzlc16.vdd.t136                            1.8
+xzlc16.vdd.t135                            1.8
+xzlc16.y[2].t1                             1.8
+xzlc16.gnd.t3                      1.75014e-09
+xzlc16.gnd.t2                      1.11717e-09
+xzlc16.vdd.t31                             1.8
+xzlc16.vdd.t80                             1.8
+xzlc16.y[2].t0                             1.8
+xzlc16.vdd.t3                              1.8
+xzlc16.vdd.t2                              1.8
+xzlc16.vdd.t158                            1.8
+xzlc16.vdd.t157                            1.8
+xzlc16.gnd.t190                    2.69747e-11
+xzlc16.gnd.t189                    7.65798e-10
+xzlc16.gnd.t157                    2.29464e-09
+xzlc16.gnd.t156                    6.20417e-18
+xzlc16.vdd.t95                             1.8
+xzlc16.vdd.t94                             1.8
+xzlc16.vdd.t183                            1.8
+xzlc16.a[13].t3                              0
+xzlc16.vdd.t182                            1.8
+xzlc16.gnd.t43                     3.19318e-10
+xzlc16.gnd.t42                     4.27542e-10
+xzlc16.vdd.t213                            1.8
+xzlc16.a[9].t3                               0
+xzlc16.vdd.t212                            1.8
+xzlc16.gnd.t21                     1.69604e-09
+xzlc16.gnd.t20                     1.19316e-10
+xzlc16.vdd.t33                             1.8
+xzlc16.vdd.t32                             1.8
+xzlc16.vdd.t84                             1.8
+xzlc16.vdd.t83                             1.8
+xzlc16.gnd.t73                     2.19639e-11
+xzlc16.gnd.t72                     1.60261e-09
+xzlc16.gnd.t177                    2.02874e-12
+xzlc16.x2.x2.x3.b                  5.47536e-09
+xzlc16.gnd.t176                    2.65349e-18
+xzlc16.gnd.t209                    1.02815e-11
+xzlc16.x2.x1.x3.b                  5.47522e-09
+xzlc16.gnd.t208                    5.69657e-10
+xzlc16.vdd.t124                            1.8
+xzlc16.gnd.t127                    1.13392e-09
+xzlc16.vdd.t65                             1.8
+xzlc16.gnd.t111                     6.3226e-10
+xzlc16.gnd.t110                    7.18567e-10
+xzlc16.vdd.t153                            1.8
+xzlc16.vdd.t152                            1.8
+xzlc16.vdd.t189                            1.8
+xzlc16.vdd.t188                            1.8
+xzlc16.gnd.t102                    1.38413e-18
+xzlc16.vdd.t107                            1.8
+xzlc16.vdd.t106                            1.8
+xzlc16.gnd.t235                    2.19373e-11
+xzlc16.a[5].t3                               0
+xzlc16.gnd.t234                    7.31854e-10
+xzlc16.gnd.t89                     3.19482e-10
+xzlc16.gnd.t88                     4.25442e-11
+xzlc16.gnd.t241                     2.2259e-11
+xzlc16.a[7].t3                               0
+xzlc16.gnd.t240                    1.62699e-09
+xzlc16.x2.x6.a0                            1.8
+xzlc16.gnd.t163                    1.69594e-09
+xzlc16.gnd.t162                    7.92726e-10
+xzlc16.vdd.t39                             1.8
+xzlc16.vdd.t38                             1.8
+xzlc16.gnd.t159                    7.28906e-10
+xzlc16.gnd.t158                    2.90524e-10
+xzlc16.vdd.t53                             1.8
+xzlc16.vdd.t52                             1.8
+xzlc16.vdd.t70                             1.8
+xzlc16.vdd.t69                             1.8
+xzlc16.gnd.t124                    3.23766e-10
+xzlc16.gnd.t123                    1.29415e-09
+xzlc16.gnd.t87                     5.43627e-10
+xzlc16.a[7].t2                               0
+xzlc16.gnd.t239                    7.29146e-10
+xzlc16.gnd.t238                    1.10394e-09
+xzlc16.a[3].t2                               0
+xzlc16.gnd.t231                    3.02507e-11
+xzlc16.gnd.t230                    1.83246e-09
+xzlc16.a[15].t2                              0
+xzlc16.vdd.t217                            1.8
+xzlc16.vdd.t216                            1.8
+xzlc16.vdd.t123                            1.8
+xzlc16.vdd.t122                            1.8
+xzlc16.a[11].t2                              0
+xzlc16.vdd.t210                            1.8
+xzlc16.vdd.t209                            1.8
+xzlc16.y[4].t0                     5.20998e-09
+xzlc16.gnd.t138                    5.50724e-10
+xzlc16.gnd.t137                    1.00661e-10
+xzlc16.gnd.t122                     1.9253e-09
+xzlc16.vdd.t91                             1.8
+xzlc16.vdd.t90                             1.8
+xzlc16.gnd.t49                     6.32275e-10
+xzlc16.gnd.t48                     9.54475e-10
+xzlc16.vdd.t171                            1.8
+xzlc16.gnd.t84                     2.18942e-11
+xzlc16.gnd.t83                     7.90443e-10
+xzlc16.y[4].t1                     6.48915e-09
+xzlc16.vdd.t138                            1.8
+xzlc16.vdd.t137                            1.8
+xzlc16.vdd.t229                            1.8
+xzlc16.a[5].t1                               0
+xzlc16.vdd.t228                            1.8
+xzlc16.gnd.t115                    6.89256e-10
+xzlc16.gnd.t114                    2.01018e-18
+xzlc16.vdd.t233                            1.8
+xzlc16.a[7].t1                               0
+xzlc16.vdd.t232                            1.8
+xzlc16.vdd.t164                            1.8
+xzlc16.vdd.t163                            1.8
+xzlc16.gnd.t40                     6.32225e-10
+xzlc16.gnd.t39                     7.19436e-18
+xzlc16.gnd.t45                     6.32405e-10
+xzlc16.gnd.t44                       3.227e-10
+xzlc16.gnd.t7                      1.24487e-09
+xzlc16.gnd.t6                      2.85826e-10
+xzlc16.gnd.t201                    7.70703e-10
+xzlc16.gnd.t200                    1.42615e-18
+xzlc16.gnd.t180                    8.15984e-10
+xzlc16.gnd.t179                    8.02201e-10
+xzlc16.vdd.t108                            1.8
+xzlc16.vdd.t126                            1.8
+xzlc16.vdd.t125                            1.8
+xzlc16.vdd.t199                            1.8
+xzlc16.vdd.t198                            1.8
+xzlc16.gnd.t36                      2.1881e-11
+xzlc16.gnd.t35                     8.12573e-10
+xzlc16.vdd.t101                            1.8
+xzlc16.vdd.t100                            1.8
+xzlc16.vdd.t225                            1.8
+xzlc16.a[3].t1                               0
+xzlc16.vdd.t224                            1.8
+xzlc16.gnd.t66                      6.1177e-10
+xzlc16.gnd.t99                     2.29402e-09
+xzlc16.gnd.t98                     2.02147e-10
+xzlc16.vdd.t12                             1.8
+xzlc16.vdd.t11                             1.8
+xzlc16.gnd.t16                     3.37557e-11
+xzlc16.gnd.t15                     1.98717e-09
+xzlc16.vdd.t21                             1.8
+xzlc16.vdd.t20                             1.8
+xzlc16.vdd.t10                             1.8
+xzlc16.vdd.t9                              1.8
+xzlc16.gnd.t136                    2.33782e-09
+xzlc16.gnd.t135                    1.97441e-09
+xzlc16.vdd.t166                            1.8
+xzlc16.gnd.t23                     8.15904e-10
+xzlc16.gnd.t22                      2.5529e-10
+xzlc16.a[9].t0                               0
+xzlc16.gnd.t221                    2.19268e-11
+xzlc16.gnd.t220                    9.55189e-10
+xzlc16.vdd.t74                             1.8
+xzlc16.vdd.t73                             1.8
+xzlc16.gnd.t130                    2.33743e-09
+xzlc16.gnd.t129                    9.33495e-10
+xzlc16.vdd.t151                            1.8
+xzlc16.vdd.t170                            1.8
+xzlc16.vdd.t169                            1.8
+xzlc16.vdd.t66                             1.8
+xzlc16.x2.x3.b                             1.8
+xzlc16.gnd.t193                    1.02859e-09
+xzlc16.gnd.t192                    5.43073e-10
+xzlc16.gnd.t14                     1.00044e-09
+xzlc16.gnd.t13                     8.01094e-10
+xzlc16.gnd.t199                    3.34191e-11
+xzlc16.gnd.t198                    8.99473e-10
+xzlc16.gnd.t169                    3.19365e-10
+xzlc16.gnd.t168                    3.42027e-10
+xzlc16.vdd.t62                             1.8
+xzlc16.vdd.t61                             1.8
+xzlc16.vdd.t172                            1.8
+xzlc16.vdd.t114                            1.8
+xzlc16.vdd.t113                            1.8
+xzlc16.vdd.t197                            1.8
+xzlc16.vdd.t196                            1.8
+xzlc16.a[0].t0                               0
+xzlc16.vdd.t237                            1.8
+xzlc16.vdd.t175                            1.8
+xzlc16.a[13].t0                              0
+xzlc16.gnd.t184                    2.19543e-11
+xzlc16.gnd.t183                    9.72702e-10
+xzlc16.gnd.t104                    1.69532e-09
+xzlc16.gnd.t103                    1.57004e-10
+xzlc16.vdd.t97                             1.8
+xzlc16.vdd.t96                             1.8
+xzlc16.gnd.t251                    1.02381e-11
+xzlc16.a[6].t1                               0
+xzlc16.gnd.t250                    9.08579e-10
+xzlc16.gnd.t247                    1.02865e-09
+xzlc16.a[2].t1                             1.8
+xzlc16.gnd.t246                    8.65035e-10
+xzlc16.vdd.t28                             1.8
+xzlc16.vdd.t50                             1.8
+xzlc16.vdd.t49                             1.8
+xzlc16.gnd.t132                    2.33762e-09
+xzlc16.gnd.t131                    7.05378e-10
+xzlc16.vdd.t56                             1.8
+xzlc16.gnd.t121                     7.7062e-10
+xzlc16.gnd.t120                     8.9952e-19
+xzlc16.gnd.t93                     6.33119e-10
+xzlc16.gnd.t92                     1.06539e-10
+xzlc16.vdd.t60                             1.8
+xzlc16.vdd.t59                             1.8
+xzlc16.gnd.t69                     2.21024e-11
+xzlc16.gnd.t68                     7.89308e-10
+xzlc16.gnd.t59                      6.3306e-10
+xzlc16.gnd.t58                     1.53267e-11
+xzlc16.gnd.t211                    8.15841e-10
+xzlc16.gnd.t210                    8.73319e-10
+xzlc16.gnd.t119                    3.20218e-10
+xzlc16.gnd.t118                    7.51382e-11
+xzlc16.vdd.t134                            1.8
+xzlc16.vdd.t133                            1.8
+xzlc16.gnd.t213                    7.29132e-10
+xzlc16.a[11].t1                              0
+xzlc16.gnd.t212                    2.45128e-09
+xzlc16.vdd.t176                            1.8
+xzlc16.vdd.t35                             1.8
+xzlc16.vdd.t34                             1.8
+xzlc16.gnd.t65                     1.69552e-09
+xzlc16.gnd.t64                      2.7461e-10
+xzlc16.vdd.t82                             1.8
+xzlc16.vdd.t81                             1.8
+xzlc16.vdd.t132                            1.8
+xzlc16.vdd.t131                            1.8
+xzlc16.vdd.t72                             1.8
+xzlc16.vdd.t71                             1.8
+xzlc16.gnd.t147                    8.15972e-10
+xzlc16.gnd.t146                    1.79714e-19
+xzlc16.gnd.t56                      1.6955e-09
+xzlc16.gnd.t55                     3.52354e-10
+xzlc16.gnd.t67                     8.01997e-10
+xzlc16.gnd.t223                    7.29078e-10
+xzlc16.a[15].t1                              0
+xzlc16.gnd.t222                    8.67898e-10
+xzlc16.a[10].t0                              0
+xzlc16.gnd.t203                    1.02159e-11
+xzlc16.gnd.t202                    1.86307e-09
+xzlc16.vdd.t191                            1.8
+xzlc16.vdd.t23                             1.8
+xzlc16.vdd.t22                             1.8
+xzlc16.vdd.t40                             1.8
+xzlc16.gnd.t1                      8.15958e-10
+xzlc16.gnd.t0                      1.88726e-09
+xzlc16.vdd.t206                            1.8
+xzlc16.vdd.t205                            1.8
+xzlc16.vdd.t46                             1.8
+xzlc16.vdd.t45                             1.8
+xzlc16.gnd.t172                    4.86097e-10
+xzlc16.vdd.t130                            1.8
+xzlc16.vdd.t129                            1.8
+xzlc16.gnd.t139                    3.85098e-10
+xzlc16.gnd.t197                    2.99141e-11
+xzlc16.gnd.t196                    1.27359e-10
+xzlc16.gnd.t145                    8.15732e-10
+xzlc16.gnd.t144                    2.17498e-18
+xzlc16.gnd.t52                     5.71948e-11
+xzlc16.vdd.t118                            1.8
+xzlc16.vdd.t117                            1.8
+xzlc16.vdd.t116                            1.8
+xzlc16.vdd.t115                            1.8
+xzlc16.vdd.t195                            1.8
+xzlc16.vdd.t194                            1.8
+xzlc16.a[14].t0                              0
+xzlc16.gnd.t217                    1.02596e-11
+xzlc16.gnd.t216                     1.0269e-09
+xzlc16.gnd.t97                     6.89172e-10
+xzlc16.gnd.t96                     8.84242e-10
+xzlc16.vdd.t148                            1.8
+xzlc16.vdd.t147                            1.8
+xzlc16.a[13].t2                              0
+xzlc16.vdd.t181                            1.8
+xzlc16.vdd.t180                            1.8
+xzlc16.a[9].t2                               0
+xzlc16.vdd.t215                            1.8
+xzlc16.vdd.t214                            1.8
+xzlc16.gnd.t109                     3.3831e-11
+xzlc16.y[1].t1                     5.44229e-09
+xzlc16.gnd.t174                    7.82691e-10
+xzlc16.gnd.t173                     8.2955e-10
+xzlc16.gnd.t191                    1.74251e-09
+xzlc16.a[1].t0                               0
+xzlc16.vdd.t223                            1.8
+xzlc16.vdd.t222                            1.8
+xzlc16.vdd.t179                            1.8
+xzlc16.vdd.t178                            1.8
+xzlc16.y[1].t0                     7.45964e-09
+xzlc16.vdd.t174                            1.8
+xzlc16.vdd.t173                            1.8
+xzlc16.gnd.t153                    2.66621e-09
+xzlc16.vdd.t16                             1.8
+xzlc16.vdd.t15                             1.8
+xzlc16.gnd.t150                    1.30803e-10
+xzlc16.gnd.t207                    1.69558e-09
+xzlc16.gnd.t206                    2.33137e-10
+xzlc16.vdd.t146                            1.8
+xzlc16.vdd.t145                            1.8
+xzlc16.vdd.t203                            1.8
+xzlc16.vdd.t202                            1.8
+xzlc16.gnd.t47                     2.29422e-09
+xzlc16.gnd.t46                     9.17113e-10
+xzlc16.gnd.t113                    6.34195e-10
+xzlc16.gnd.t112                    2.25987e-11
+xzlc16.gnd.t63                     3.19486e-10
+xzlc16.gnd.t62                     6.27932e-10
+xzlc16.a[8].t0                               0
+xzlc16.gnd.t205                    1.01797e-11
+xzlc16.gnd.t204                    1.18266e-09
+xzlc16.gnd.t171                    1.01903e-11
+xzlc16.gnd.t170                    1.01589e-09
+xzlc16.gnd.t18                     8.15827e-10
+xzlc16.gnd.t17                     1.12438e-09
+xzlc16.gnd.t82                     1.03283e-11
+xzlc16.gnd.t81                     1.42222e-09
+xzlc16.gnd.t77                     8.15755e-10
+xzlc16.gnd.t76                     1.21458e-18
+xzlc16.vdd.t204                            1.8
+xzlc16.gnd.t106                    3.34269e-11
+xzlc16.gnd.t105                    5.97495e-11
+xzlc16.a[14].t1                              0
+xzlc16.vdd.t211                            1.8
+xzlc16.gnd.t57                     6.68984e-11
+xzlc16.a[10].t1                              0
+xzlc16.vdd.t200                            1.8
+xzlc16.vdd.t140                            1.8
+xzlc16.vdd.t139                            1.8
+xzlc16.vdd.t190                            1.8
+xzlc16.vdd.t14                             1.8
+xzlc16.vdd.t13                             1.8
+xzlc16.gnd.t5                      5.50357e-10
+xzlc16.gnd.t4                      1.87513e-11
+xzlc16.gnd.t227                    2.19062e-11
+xzlc16.a[1].t3                               0
+xzlc16.gnd.t226                    5.50311e-10
+xzlc16.a[4].n0                               0
+xzlc16.a[4].n1                               0
+xzlc16.a[5].n0                               0
+xzlc16.a[5].n1                               0
+xzlc16.a[5].n2                               0
+xzlc16.a[5].n4                               0
+xzlc16.a[5].n3                               0
+xzlc16.a[6].n0                               0
+xzlc16.a[6].n1                               0
+xzlc16.a[7].n0                               0
+xzlc16.a[7].n1                               0
+xzlc16.a[7].n2                               0
+xzlc16.a[7].n4                               0
+xzlc16.a[7].n3                               0
+xzlc16.a[0].n0                               0
+xzlc16.a[0].n1                               0
+xzlc16.a[1].n0                               0
+xzlc16.a[1].n1                               0
+xzlc16.a[1].n2                               0
+xzlc16.a[1].n4                               0
+xzlc16.a[1].n3                               0
+xzlc16.a[2].n0                             1.8
+xzlc16.a[2].n1                             1.8
+xzlc16.a[3].n0                               0
+xzlc16.a[3].n1                               0
+xzlc16.a[3].n2                               0
+xzlc16.a[3].n4                               0
+xzlc16.a[3].n3                               0
+xzlc16.y[4].n0                     5.72905e-09
+y4                                 5.71538e-09
+xzlc16.y[4].n1                     5.71729e-09
+xzlc16.y[0].n0                             1.8
+y0                                         1.8
+xzlc16.y[0].n1                             1.8
+xzlc16.y[0].n3                             1.8
+xzlc16.y[0].n4                             1.8
+xzlc16.y[0].n2                             1.8
+xzlc16.y[1].n0                     7.30658e-09
+y1                                   6.333e-09
+xzlc16.y[1].n1                     6.33632e-09
+xzlc16.y[1].n3                       6.333e-09
+xzlc16.y[1].n4                       6.333e-09
+xzlc16.y[1].n2                     6.33465e-09
+xzlc16.y[2].n0                             1.8
+y2                                         1.8
+xzlc16.y[2].n1                             1.8
+xzlc16.y[2].n4                             1.8
+xzlc16.y[2].n3                             1.8
+xzlc16.y[2].n2                             1.8
+xzlc16.y[3].n3                             1.8
+xzlc16.y[3].n0                             1.8
+xzlc16.y[3].n4                             1.8
+y3                                         1.8
+xzlc16.y[3].n1                             1.8
+xzlc16.y[3].n2                             1.8
+xzlc16.a[10].n0                              0
+xzlc16.a[10].n1                              0
+xzlc16.a[8].n0                               0
+xzlc16.a[8].n1                               0
+xzlc16.a[11].n0                              0
+xzlc16.a[11].n1                              0
+xzlc16.a[11].n4                              0
+xzlc16.a[11].n2                              0
+xzlc16.a[11].n3                              0
+xzlc16.a[9].n0                               0
+xzlc16.a[9].n1                               0
+xzlc16.a[9].n4                               0
+xzlc16.a[9].n2                               0
+xzlc16.a[9].n3                               0
+xzlc16.a[14].n0                              0
+xzlc16.a[14].n1                              0
+xzlc16.a[12].n0                              0
+xzlc16.a[12].n1                              0
+xzlc16.a[15].n0                              0
+xzlc16.a[15].n1                              0
+xzlc16.a[15].n4                              0
+xzlc16.a[15].n2                              0
+xzlc16.a[15].n3                              0
+xzlc16.a[13].n0                              0
+xzlc16.a[13].n1                              0
+xzlc16.a[13].n4                              0
+xzlc16.a[13].n2                              0
+xzlc16.a[13].n3                              0
+xzlc16.vdd.n401                            1.8
+xzlc16.vdd.n411                            1.8
+xzlc16.vdd.n429                            1.8
+xzlc16.vdd.n355                            1.8
+xzlc16.vdd.n345                            1.8
+xzlc16.vdd.n73                             1.8
+xzlc16.vdd.n72                             1.8
+xzlc16.vdd.n473                            1.8
+xzlc16.vdd.n471                            1.8
+xzlc16.vdd.n203                            1.8
+xzlc16.vdd.n202                            1.8
+xzlc16.vdd.n91                             1.8
+xzlc16.vdd.n90                             1.8
+xzlc16.vdd.n104                            1.8
+xzlc16.vdd.n103                            1.8
+xzlc16.vdd.n16                             1.8
+xzlc16.vdd.n15                             1.8
+xzlc16.vdd.n350                            1.8
+xzlc16.vdd.n349                            1.8
+xzlc16.vdd.n307                            1.8
+xzlc16.vdd.n306                            1.8
+xzlc16.vdd.n318                            1.8
+xzlc16.vdd.n317                            1.8
+xzlc16.vdd.n247                            1.8
+xzlc16.vdd.n246                            1.8
+xzlc16.vdd.n521                            1.8
+xzlc16.vdd.n21                             1.8
+xzlc16.vdd.n9                              1.8
+xzlc16.vdd.n3                              1.8
+xzlc16.vdd.n173                            1.8
+xzlc16.vdd.n174                            1.8
+xzlc16.vdd.n420                            1.8
+xzlc16.vdd.n419                            1.8
+xzlc16.vdd.n299                            1.8
+xzlc16.vdd.n298                            1.8
+xzlc16.vdd.n354                            1.8
+xzlc16.vdd.n353                            1.8
+xzlc16.vdd.n382                            1.8
+xzlc16.vdd.n381                            1.8
+xzlc16.vdd.n66                             1.8
+xzlc16.vdd.n65                             1.8
+xzlc16.vdd.n251                            1.8
+xzlc16.vdd.n250                            1.8
+xzlc16.vdd.n5                              1.8
+xzlc16.vdd.n4                              1.8
+xzlc16.vdd.n538                            1.8
+xzlc16.vdd.n529                            1.8
+xzlc16.vdd.n27                             1.8
+xzlc16.vdd.n26                             1.8
+xzlc16.vdd.n484                            1.8
+xzlc16.vdd.n483                            1.8
+xzlc16.vdd.n45                             1.8
+xzlc16.vdd.n24                             1.8
+xzlc16.vdd.n193                            1.8
+xzlc16.vdd.n192                            1.8
+xzlc16.vdd.n115                            1.8
+xzlc16.vdd.n107                            1.8
+xzlc16.vdd.n577                            1.8
+xzlc16.vdd.n576                            1.8
+xzlc16.vdd.n325                            1.8
+xzlc16.vdd.n324                            1.8
+xzlc16.vdd.n186                            1.8
+xzlc16.vdd.n95                             1.8
+xzlc16.vdd.n141                            1.8
+xzlc16.vdd.n140                            1.8
+xzlc16.vdd.n152                            1.8
+xzlc16.vdd.n149                            1.8
+xzlc16.vdd.n265                            1.8
+xzlc16.vdd.n256                            1.8
+xzlc16.vdd.n228                            1.8
+xzlc16.vdd.n446                            1.8
+xzlc16.vdd.n244                            1.8
+xzlc16.vdd.n1                              1.8
+xzlc16.vdd.n7                              1.8
+xzlc16.vdd.n532                            1.8
+xzlc16.vdd.n391                            1.8
+xzlc16.vdd.n29                             1.8
+xzlc16.vdd.n61                             1.8
+xzlc16.vdd.n516                            1.8
+xzlc16.vdd.n199                            1.8
+xzlc16.vdd.n109                            1.8
+xzlc16.vdd.n331                            1.8
+xzlc16.vdd.n180                            1.8
+xzlc16.vdd.n167                            1.8
+xzlc16.vdd.n162                            1.8
+xzlc16.vdd.n259                            1.8
+xzlc16.vdd.n507                            1.8
+xzlc16.vdd.n52                             1.8
+xzlc16.vdd.n69                             1.8
+xzlc16.vdd.n68                             1.8
+xzlc16.vdd.n80                             1.8
+xzlc16.vdd.n79                             1.8
+xzlc16.vdd.n197                            1.8
+xzlc16.vdd.n196                            1.8
+xzlc16.vdd.n132                            1.8
+xzlc16.vdd.n98                             1.8
+xzlc16.vdd.n555                            1.8
+xzlc16.vdd.n12                             1.8
+xzlc16.vdd.n337                            1.8
+xzlc16.vdd.n336                            1.8
+xzlc16.vdd.n358                            1.8
+xzlc16.vdd.n357                            1.8
+xzlc16.vdd.n314                            1.8
+xzlc16.vdd.n313                            1.8
+xzlc16.vdd.n239                            1.8
+xzlc16.vdd.n82                             1.8
+xzlc16.vdd.n502                            1.8
+xzlc16.vdd.n56                             1.8
+xzlc16.vdd.n493                            1.8
+xzlc16.vdd.n175                            1.8
+xzlc16.vdd.n172                            1.8
+xzlc16.vdd.n230                            1.8
+xzlc16.vdd.n229                            1.8
+xzlc16.vdd.n227                            1.8
+xzlc16.vdd.n492                            1.8
+xzlc16.vdd.n491                            1.8
+xzlc16.vdd.n569                            1.8
+xzlc16.vdd.n10                             1.8
+xzlc16.vdd.n399                            1.8
+xzlc16.vdd.n398                            1.8
+xzlc16.vdd.n159                            1.8
+xzlc16.vdd.n158                            1.8
+xzlc16.vdd.n495                            1.8
+xzlc16.vdd.n494                            1.8
+xzlc16.vdd.n59                             1.8
+xzlc16.vdd.n38                             1.8
+xzlc16.vdd.n23                             1.8
+xzlc16.vdd.n466                            1.8
+xzlc16.vdd.n465                            1.8
+xzlc16.vdd.n219                            1.8
+xzlc16.vdd.n218                            1.8
+xzlc16.vdd.n268                            1.8
+xzlc16.vdd.n267                            1.8
+xzlc16.vdd.n187                            1.8
+xzlc16.vdd.n93                             1.8
+xzlc16.vdd.n139                            1.8
+xzlc16.vdd.n137                            1.8
+xzlc16.vdd.n151                            1.8
+xzlc16.vdd.n150                            1.8
+xzlc16.vdd.n133                            1.8
+xzlc16.vdd.n556                            1.8
+xzlc16.vdd.n238                            1.8
+xzlc16.vdd.n501                            1.8
+xzlc16.vdd.n47                             1.8
+xzlc16.vdd.n46                             1.8
+xzlc16.vdd.n517                            1.8
+xzlc16.vdd.n515                            1.8
+xzlc16.vdd.n48                             1.8
+xzlc16.vdd.n508                            1.8
+xzlc16.vdd.n506                            1.8
+xzlc16.vdd.n53                             1.8
+xzlc16.vdd.n499                            1.8
+xzlc16.vdd.n498                            1.8
+xzlc16.vdd.n57                             1.8
+xzlc16.vdd.n444                            1.8
+xzlc16.vdd.n453                            1.8
+xzlc16.vdd.n451                            1.8
+xzlc16.vdd.n452                            1.8
+xzlc16.vdd.n462                            1.8
+xzlc16.vdd.n460                            1.8
+xzlc16.vdd.n461                            1.8
+xzlc16.vdd.n63                             1.8
+xzlc16.vdd.n470                            1.8
+xzlc16.vdd.n474                            1.8
+xzlc16.vdd.n472                            1.8
+xzlc16.vdd.n60                             1.8
+xzlc16.vdd.n456                            1.8
+xzlc16.vdd.n71                             1.8
+xzlc16.vdd.n457                            1.8
+xzlc16.vdd.n447                            1.8
+xzlc16.vdd.n58                             1.8
+xzlc16.vdd.n211                            1.8
+xzlc16.vdd.n210                            1.8
+xzlc16.vdd.n200                            1.8
+xzlc16.vdd.n231                            1.8
+xzlc16.vdd.n86                             1.8
+xzlc16.vdd.n276                            1.8
+xzlc16.vdd.n249                            1.8
+xzlc16.vdd.n275                            1.8
+xzlc16.vdd.n157                            1.8
+xzlc16.vdd.n156                            1.8
+xzlc16.vdd.n223                            1.8
+xzlc16.vdd.n222                            1.8
+xzlc16.vdd.n92                             1.8
+xzlc16.vdd.n195                            1.8
+xzlc16.vdd.n215                            1.8
+xzlc16.vdd.n214                            1.8
+xzlc16.vdd.n207                            1.8
+xzlc16.vdd.n201                            1.8
+xzlc16.vdd.n206                            1.8
+xzlc16.vdd.n234                            1.8
+xzlc16.vdd.n84                             1.8
+xzlc16.vdd.n235                            1.8
+xzlc16.vdd.n78                             1.8
+xzlc16.vdd.n292                            1.8
+xzlc16.vdd.n291                            1.8
+xzlc16.vdd.n284                            1.8
+xzlc16.vdd.n243                            1.8
+xzlc16.vdd.n283                            1.8
+xzlc16.vdd.n131                            1.8
+xzlc16.vdd.n99                             1.8
+xzlc16.vdd.n127                            1.8
+xzlc16.vdd.n126                            1.8
+xzlc16.vdd.n125                            1.8
+xzlc16.vdd.n101                            1.8
+xzlc16.vdd.n121                            1.8
+xzlc16.vdd.n120                            1.8
+xzlc16.vdd.n119                            1.8
+xzlc16.vdd.n105                            1.8
+xzlc16.vdd.n114                            1.8
+xzlc16.vdd.n113                            1.8
+xzlc16.vdd.n108                            1.8
+xzlc16.vdd.n579                            1.8
+xzlc16.vdd.n574                            1.8
+xzlc16.vdd.n578                            1.8
+xzlc16.vdd.n571                            1.8
+xzlc16.vdd.n570                            1.8
+xzlc16.vdd.n564                            1.8
+xzlc16.vdd.n563                            1.8
+xzlc16.vdd.n565                            1.8
+xzlc16.vdd.n560                            1.8
+xzlc16.vdd.n559                            1.8
+xzlc16.vdd.n539                            1.8
+xzlc16.vdd.n527                            1.8
+xzlc16.vdd.n543                            1.8
+xzlc16.vdd.n544                            1.8
+xzlc16.vdd.n548                            1.8
+xzlc16.vdd.n547                            1.8
+xzlc16.vdd.n549                            1.8
+xzlc16.vdd.n13                             1.8
+xzlc16.vdd.n553                            1.8
+xzlc16.vdd.n554                            1.8
+xzlc16.vdd.n533                            1.8
+xzlc16.vdd.n530                            1.8
+xzlc16.vdd.n537                            1.8
+xzlc16.vdd.n418                            1.8
+xzlc16.vdd.n311                            1.8
+xzlc16.vdd.n428                            1.8
+xzlc16.vdd.n305                            1.8
+xzlc16.vdd.n421                            1.8
+xzlc16.vdd.n430                            1.8
+xzlc16.vdd.n304                            1.8
+xzlc16.vdd.n438                            1.8
+xzlc16.vdd.n297                            1.8
+xzlc16.vdd.n437                            1.8
+xzlc16.vdd.n365                            1.8
+xzlc16.vdd.n364                            1.8
+xzlc16.vdd.n373                            1.8
+xzlc16.vdd.n372                            1.8
+xzlc16.vdd.n346                            1.8
+xzlc16.vdd.n380                            1.8
+xzlc16.vdd.n342                            1.8
+xzlc16.vdd.n390                            1.8
+xzlc16.vdd.n335                            1.8
+xzlc16.vdd.n383                            1.8
+xzlc16.vdd.n392                            1.8
+xzlc16.vdd.n320                            1.8
+xzlc16.vdd.n326                            1.8
+xzlc16.vdd.n322                            1.8
+xzlc16.vdd.n330                            1.8
+xzlc16.vdd.n396                            1.8
+xzlc16.vdd.n395                            1.8
+xzlc16.vdd.n332                            1.8
+xzlc16.vdd.n387                            1.8
+xzlc16.vdd.n386                            1.8
+xzlc16.vdd.n338                            1.8
+xzlc16.vdd.n377                            1.8
+xzlc16.vdd.n376                            1.8
+xzlc16.vdd.n344                            1.8
+xzlc16.vdd.n369                            1.8
+xzlc16.vdd.n368                            1.8
+xzlc16.vdd.n351                            1.8
+xzlc16.vdd.n361                            1.8
+xzlc16.vdd.n360                            1.8
+xzlc16.vdd.n301                            1.8
+xzlc16.vdd.n434                            1.8
+xzlc16.vdd.n433                            1.8
+xzlc16.vdd.n302                            1.8
+xzlc16.vdd.n425                            1.8
+xzlc16.vdd.n424                            1.8
+xzlc16.vdd.n308                            1.8
+xzlc16.vdd.n415                            1.8
+xzlc16.vdd.n414                            1.8
+xzlc16.vdd.n315                            1.8
+xzlc16.vdd.n408                            1.8
+xzlc16.vdd.n407                            1.8
+xzlc16.vdd.n406                            1.8
+xzlc16.vdd.n403                            1.8
+xzlc16.vdd.n402                            1.8
+xzlc16.vdd.n185                            1.8
+xzlc16.vdd.n96                             1.8
+xzlc16.vdd.n181                            1.8
+xzlc16.vdd.n179                            1.8
+xzlc16.vdd.n97                             1.8
+xzlc16.vdd.n142                            1.8
+xzlc16.vdd.n135                            1.8
+xzlc16.vdd.n166                            1.8
+xzlc16.vdd.n168                            1.8
+xzlc16.vdd.n134                            1.8
+xzlc16.vdd.n226                            1.8
+xzlc16.vdd.n88                             1.8
+xzlc16.vdd.n161                            1.8
+xzlc16.vdd.n147                            1.8
+xzlc16.vdd.n163                            1.8
+xzlc16.vdd.n288                            1.8
+xzlc16.vdd.n240                            1.8
+xzlc16.vdd.n287                            1.8
+xzlc16.vdd.n241                            1.8
+xzlc16.vdd.n280                            1.8
+xzlc16.vdd.n279                            1.8
+xzlc16.vdd.n272                            1.8
+xzlc16.vdd.n252                            1.8
+xzlc16.vdd.n271                            1.8
+xzlc16.vdd.n253                            1.8
+xzlc16.vdd.n264                            1.8
+xzlc16.vdd.n257                            1.8
+xzlc16.vdd.n260                            1.8
+xzlc16.vdd.n41                             1.8
+xzlc16.vdd.n40                             1.8
+xzlc16.vdd.n20                             1.8
+xzlc16.vdd.n522                            1.8
+xzlc16.vdd.n520                            1.8
+xzlc16.vdd.n22                             1.8
+xzlc16.vdd.n512                            1.8
+xzlc16.vdd.n511                            1.8
+xzlc16.vdd.n51                             1.8
+xzlc16.vdd.n503                            1.8
+xzlc16.vdd.n33                             1.8
+xzlc16.vdd.n32                             1.8
+xzlc16.vdd.n34                             1.8
+xzlc16.vdd.n478                            1.8
+xzlc16.vdd.n477                            1.8
+xzlc16.vdd.n488                            1.8
+xzlc16.vdd.n482                            1.8
+xzlc16.vdd.n487                            1.8
+xzlc16.vdd.n110                            1.8
+xzlc16.vdd.n531                            1.8
+xzlc16.vdd.n258                            1.8
+xzlc16.vdd.n30                             1.8
+xzlc16.vdd.n412                            1.8
+xzlc16.vdd.n534                            1.8
+xzlc16.vdd.n535                            1.8
+xzlc16.vdd.n536                            1.8
+xzlc16.vdd.n528                            1.8
+xzlc16.vdd.n540                            1.8
+xzlc16.vdd.n541                            1.8
+xzlc16.vdd.n542                            1.8
+xzlc16.vdd.n545                            1.8
+xzlc16.vdd.n546                            1.8
+xzlc16.vdd.n14                             1.8
+xzlc16.vdd.n550                            1.8
+xzlc16.vdd.n551                            1.8
+xzlc16.vdd.n552                            1.8
+xzlc16.vdd.n11                             1.8
+xzlc16.vdd.n557                            1.8
+xzlc16.vdd.n558                            1.8
+xzlc16.vdd.n561                            1.8
+xzlc16.vdd.n562                            1.8
+xzlc16.vdd.n6                              1.8
+xzlc16.vdd.n566                            1.8
+xzlc16.vdd.n568                            1.8
+xzlc16.vdd.n2                              1.8
+xzlc16.vdd.n572                            1.8
+xzlc16.vdd.n573                            1.8
+xzlc16.vdd.n580                            1.8
+xzlc16.vdd.n0                              1.8
+xzlc16.vdd.n327                            1.8
+xzlc16.vdd.n328                            1.8
+xzlc16.vdd.n329                            1.8
+xzlc16.vdd.n400                            1.8
+xzlc16.vdd.n409                            1.8
+xzlc16.vdd.n316                            1.8
+xzlc16.vdd.n405                            1.8
+xzlc16.vdd.n404                            1.8
+xzlc16.vdd.n319                            1.8
+xzlc16.vdd.n333                            1.8
+xzlc16.vdd.n393                            1.8
+xzlc16.vdd.n389                            1.8
+xzlc16.vdd.n340                            1.8
+xzlc16.vdd.n384                            1.8
+xzlc16.vdd.n379                            1.8
+xzlc16.vdd.n343                            1.8
+xzlc16.vdd.n374                            1.8
+xzlc16.vdd.n371                            1.8
+xzlc16.vdd.n348                            1.8
+xzlc16.vdd.n366                            1.8
+xzlc16.vdd.n363                            1.8
+xzlc16.vdd.n356                            1.8
+xzlc16.vdd.n439                            1.8
+xzlc16.vdd.n436                            1.8
+xzlc16.vdd.n300                            1.8
+xzlc16.vdd.n431                            1.8
+xzlc16.vdd.n427                            1.8
+xzlc16.vdd.n309                            1.8
+xzlc16.vdd.n422                            1.8
+xzlc16.vdd.n417                            1.8
+xzlc16.vdd.n312                            1.8
+xzlc16.vdd.n397                            1.8
+xzlc16.vdd.n394                            1.8
+xzlc16.vdd.n334                            1.8
+xzlc16.vdd.n388                            1.8
+xzlc16.vdd.n385                            1.8
+xzlc16.vdd.n341                            1.8
+xzlc16.vdd.n378                            1.8
+xzlc16.vdd.n375                            1.8
+xzlc16.vdd.n347                            1.8
+xzlc16.vdd.n370                            1.8
+xzlc16.vdd.n367                            1.8
+xzlc16.vdd.n352                            1.8
+xzlc16.vdd.n362                            1.8
+xzlc16.vdd.n359                            1.8
+xzlc16.vdd.n296                            1.8
+xzlc16.vdd.n435                            1.8
+xzlc16.vdd.n432                            1.8
+xzlc16.vdd.n303                            1.8
+xzlc16.vdd.n426                            1.8
+xzlc16.vdd.n423                            1.8
+xzlc16.vdd.n310                            1.8
+xzlc16.vdd.n416                            1.8
+xzlc16.vdd.n413                            1.8
+xzlc16.vdd.n410                            1.8
+xzlc16.vdd.n171                            1.8
+xzlc16.vdd.n138                            1.8
+xzlc16.vdd.n136                            1.8
+xzlc16.vdd.n143                            1.8
+xzlc16.vdd.n144                            1.8
+xzlc16.vdd.n165                            1.8
+xzlc16.vdd.n169                            1.8
+xzlc16.vdd.n170                            1.8
+xzlc16.vdd.n176                            1.8
+xzlc16.vdd.n188                            1.8
+xzlc16.vdd.n94                             1.8
+xzlc16.vdd.n184                            1.8
+xzlc16.vdd.n183                            1.8
+xzlc16.vdd.n182                            1.8
+xzlc16.vdd.n178                            1.8
+xzlc16.vdd.n177                            1.8
+xzlc16.vdd.n130                            1.8
+xzlc16.vdd.n129                            1.8
+xzlc16.vdd.n128                            1.8
+xzlc16.vdd.n100                            1.8
+xzlc16.vdd.n124                            1.8
+xzlc16.vdd.n123                            1.8
+xzlc16.vdd.n122                            1.8
+xzlc16.vdd.n102                            1.8
+xzlc16.vdd.n118                            1.8
+xzlc16.vdd.n117                            1.8
+xzlc16.vdd.n116                            1.8
+xzlc16.vdd.n106                            1.8
+xzlc16.vdd.n112                            1.8
+xzlc16.vdd.n111                            1.8
+xzlc16.vdd.n148                            1.8
+xzlc16.vdd.n153                            1.8
+xzlc16.vdd.n154                            1.8
+xzlc16.vdd.n263                            1.8
+xzlc16.vdd.n262                            1.8
+xzlc16.vdd.n261                            1.8
+xzlc16.vdd.n160                            1.8
+xzlc16.vdd.n146                            1.8
+xzlc16.vdd.n89                             1.8
+xzlc16.vdd.n224                            1.8
+xzlc16.vdd.n221                            1.8
+xzlc16.vdd.n220                            1.8
+xzlc16.vdd.n216                            1.8
+xzlc16.vdd.n213                            1.8
+xzlc16.vdd.n198                            1.8
+xzlc16.vdd.n208                            1.8
+xzlc16.vdd.n85                             1.8
+xzlc16.vdd.n233                            1.8
+xzlc16.vdd.n236                            1.8
+xzlc16.vdd.n237                            1.8
+xzlc16.vdd.n293                            1.8
+xzlc16.vdd.n290                            1.8
+xzlc16.vdd.n81                             1.8
+xzlc16.vdd.n285                            1.8
+xzlc16.vdd.n282                            1.8
+xzlc16.vdd.n245                            1.8
+xzlc16.vdd.n277                            1.8
+xzlc16.vdd.n274                            1.8
+xzlc16.vdd.n254                            1.8
+xzlc16.vdd.n269                            1.8
+xzlc16.vdd.n87                             1.8
+xzlc16.vdd.n164                            1.8
+xzlc16.vdd.n145                            1.8
+xzlc16.vdd.n225                            1.8
+xzlc16.vdd.n83                             1.8
+xzlc16.vdd.n217                            1.8
+xzlc16.vdd.n194                            1.8
+xzlc16.vdd.n212                            1.8
+xzlc16.vdd.n209                            1.8
+xzlc16.vdd.n204                            1.8
+xzlc16.vdd.n205                            1.8
+xzlc16.vdd.n232                            1.8
+xzlc16.vdd.n77                             1.8
+xzlc16.vdd.n289                            1.8
+xzlc16.vdd.n286                            1.8
+xzlc16.vdd.n242                            1.8
+xzlc16.vdd.n281                            1.8
+xzlc16.vdd.n278                            1.8
+xzlc16.vdd.n248                            1.8
+xzlc16.vdd.n273                            1.8
+xzlc16.vdd.n270                            1.8
+xzlc16.vdd.n255                            1.8
+xzlc16.vdd.n266                            1.8
+xzlc16.vdd.n31                             1.8
+xzlc16.vdd.n28                             1.8
+xzlc16.vdd.n35                             1.8
+xzlc16.vdd.n486                            1.8
+xzlc16.vdd.n37                             1.8
+xzlc16.vdd.n39                             1.8
+xzlc16.vdd.n42                             1.8
+xzlc16.vdd.n43                             1.8
+xzlc16.vdd.n523                            1.8
+xzlc16.vdd.n519                            1.8
+xzlc16.vdd.n49                             1.8
+xzlc16.vdd.n513                            1.8
+xzlc16.vdd.n510                            1.8
+xzlc16.vdd.n54                             1.8
+xzlc16.vdd.n504                            1.8
+xzlc16.vdd.n496                            1.8
+xzlc16.vdd.n75                             1.8
+xzlc16.vdd.n448                            1.8
+xzlc16.vdd.n449                            1.8
+xzlc16.vdd.n455                            1.8
+xzlc16.vdd.n458                            1.8
+xzlc16.vdd.n67                             1.8
+xzlc16.vdd.n464                            1.8
+xzlc16.vdd.n468                            1.8
+xzlc16.vdd.n476                            1.8
+xzlc16.vdd.n479                            1.8
+xzlc16.vdd.n481                            1.8
+xzlc16.vdd.n489                            1.8
+xzlc16.vdd.n490                            1.8
+xzlc16.vdd.n25                             1.8
+xzlc16.vdd.n44                             1.8
+xzlc16.vdd.n18                             1.8
+xzlc16.vdd.n19                             1.8
+xzlc16.vdd.n518                            1.8
+xzlc16.vdd.n514                            1.8
+xzlc16.vdd.n50                             1.8
+xzlc16.vdd.n509                            1.8
+xzlc16.vdd.n505                            1.8
+xzlc16.vdd.n55                             1.8
+xzlc16.vdd.n500                            1.8
+xzlc16.vdd.n497                            1.8
+xzlc16.vdd.n74                             1.8
+xzlc16.vdd.n445                            1.8
+xzlc16.vdd.n450                            1.8
+xzlc16.vdd.n454                            1.8
+xzlc16.vdd.n70                             1.8
+xzlc16.vdd.n459                            1.8
+xzlc16.vdd.n463                            1.8
+xzlc16.vdd.n64                             1.8
+xzlc16.vdd.n467                            1.8
+xzlc16.vdd.n469                            1.8
+xzlc16.vdd.n475                            1.8
+xzlc16.vdd.n62                             1.8
+xzlc16.vdd.n480                            1.8
+xzlc16.vdd.n526                            1.8
+xzlc16.vdd.n525                            1.8
+xzlc16.vdd.n190                            1.8
+xzlc16.vdd.n189                            1.8
+xzlc16.vdd.n442                            1.8
+xzlc16.vdd.n8                              1.8
+xzlc16.vdd.n295                            1.8
+xzlc16.vdd.n76                             1.8
+xzlc16.vdd.n339                            1.8
+xzlc16.vdd.n17                             1.8
+xzlc16.vdd.n191                            1.8
+xzlc16.vdd.n294                            1.8
+xzlc16.vdd.n441                            1.8
+xzlc16.vdd.n440                            1.8
+xzlc16.vdd.n443                            1.8
+xzlc16.vdd.n524                            1.8
+xzlc16.vdd.n323                            1.8
+xzlc16.vdd.n567                            1.8
+xzlc16.vdd.n575                            1.8
+xzlc16.vdd.n485                            1.8
+xzlc16.vdd.n36                             1.8
+xzlc16.vdd.n321                            1.8
+xzlc16.vdd.n155                            1.8
+xzlc16.gnd.n625                    5.64829e-10
+xzlc16.gnd.n403                    9.08097e-12
+xzlc16.gnd.n184                    4.86545e-10
+xzlc16.gnd.n627                    4.06409e-11
+xzlc16.gnd.n626                    1.03649e-09
+xzlc16.gnd.n3                      9.55794e-11
+xzlc16.gnd.n404                    3.69808e-11
+xzlc16.gnd.n4                       1.7905e-10
+xzlc16.gnd.n525                    1.49832e-12
+xzlc16.gnd.n524                    2.44424e-10
+xzlc16.gnd.n629                     7.5294e-12
+xzlc16.gnd.n628                    1.18148e-09
+xzlc16.gnd.n407                    2.92371e-12
+xzlc16.gnd.n405                    3.98531e-10
+xzlc16.gnd.n464                    4.37094e-12
+xzlc16.gnd.n463                     7.2918e-10
+xzlc16.gnd.n402                    3.46747e-10
+xzlc16.gnd.n401                     2.5574e-12
+xzlc16.gnd.n365                    1.53682e-11
+xzlc16.gnd.n364                    2.57497e-09
+xzlc16.gnd.n363                    2.34937e-10
+xzlc16.gnd.n204                    1.44193e-12
+xzlc16.gnd.n595                     1.7772e-12
+xzlc16.gnd.n594                    2.90989e-10
+xzlc16.gnd.n624                    3.03756e-10
+xzlc16.gnd.n623                    1.84636e-12
+xzlc16.gnd.n593                    4.11647e-10
+xzlc16.gnd.n592                    2.92629e-12
+xzlc16.gnd.n462                    1.35797e-10
+xzlc16.gnd.n461                    8.33561e-13
+xzlc16.gnd.n523                    2.42577e-10
+xzlc16.gnd.n522                    1.47792e-12
+xzlc16.gnd.n551                    1.54275e-12
+xzlc16.gnd.n64                     1.65518e-12
+xzlc16.gnd.n70                     2.97089e-11
+xzlc16.gnd.n453                    2.97932e-11
+xzlc16.gnd.n412                    1.55751e-12
+xzlc16.gnd.n260                    2.02874e-12
+xzlc16.gnd.n244                     2.9731e-11
+xzlc16.gnd.n246                    1.60835e-12
+xzlc16.gnd.n388                    1.56501e-12
+xzlc16.gnd.n191                    1.52492e-12
+xzlc16.gnd.n582                    1.53236e-12
+xzlc16.gnd.n562                    1.58653e-12
+xzlc16.gnd.n136                    1.60709e-12
+xzlc16.gnd.n50                     1.51715e-12
+xzlc16.gnd.n501                    1.50656e-12
+xzlc16.gnd.n548                    2.35534e-11
+xzlc16.gnd.n547                    7.27171e-10
+xzlc16.gnd.n63                     2.33511e-11
+xzlc16.gnd.n62                     7.26969e-10
+xzlc16.gnd.n78                     2.43805e-12
+xzlc16.gnd.n67                     2.99219e-11
+xzlc16.gnd.n437                    2.76682e-12
+xzlc16.gnd.n436                    3.02507e-11
+xzlc16.gnd.n417                    2.35796e-11
+xzlc16.gnd.n411                    7.27197e-10
+xzlc16.gnd.n318                    3.22287e-11
+xzlc16.gnd.n259                     9.9693e-10
+xzlc16.gnd.n243                    2.43026e-12
+xzlc16.gnd.n242                    2.99141e-11
+xzlc16.gnd.n248                    2.33281e-11
+xzlc16.gnd.n247                    7.26946e-10
+xzlc16.gnd.n215                    2.35681e-11
+xzlc16.gnd.n214                    7.27186e-10
+xzlc16.gnd.n188                    2.34374e-11
+xzlc16.gnd.n187                    7.27055e-10
+xzlc16.gnd.n579                    2.34062e-11
+xzlc16.gnd.n578                    7.27024e-10
+xzlc16.gnd.n561                    2.34996e-11
+xzlc16.gnd.n560                    7.27117e-10
+xzlc16.gnd.n52                     2.33645e-11
+xzlc16.gnd.n51                     7.26982e-10
+xzlc16.gnd.n143                    2.33283e-11
+xzlc16.gnd.n142                    7.26946e-10
+xzlc16.gnd.n500                    2.34229e-11
+xzlc16.gnd.n499                    7.27041e-10
+xzlc16.gnd.n448                    6.39469e-11
+xzlc16.gnd.n433                    1.74742e-09
+xzlc16.gnd.n181                    2.57603e-11
+xzlc16.gnd.n180                    7.08882e-10
+xzlc16.gnd.n269                    6.37459e-11
+xzlc16.gnd.n268                    1.74722e-09
+xzlc16.gnd.n304                    6.35543e-11
+xzlc16.gnd.n303                    1.74703e-09
+xzlc16.gnd.n479                    4.81867e-11
+xzlc16.gnd.n478                    1.69293e-09
+xzlc16.gnd.n24                     4.72569e-11
+xzlc16.gnd.n23                       1.692e-09
+xzlc16.gnd.n32                     1.92488e-11
+xzlc16.gnd.n31                     6.86558e-10
+xzlc16.gnd.n91                     4.76549e-11
+xzlc16.gnd.n90                      1.6924e-09
+xzlc16.gnd.n272                     9.0832e-13
+xzlc16.gnd.n271                    2.69747e-11
+xzlc16.gnd.n383                     4.7514e-11
+xzlc16.gnd.n209                    1.69226e-09
+xzlc16.gnd.n225                    1.93322e-11
+xzlc16.gnd.n224                    6.86642e-10
+xzlc16.gnd.n356                    4.78764e-11
+xzlc16.gnd.n355                    1.69262e-09
+xzlc16.gnd.n173                    4.79768e-11
+xzlc16.gnd.n39                     1.69272e-09
+xzlc16.gnd.n607                    4.74568e-11
+xzlc16.gnd.n606                     1.6922e-09
+xzlc16.gnd.n168                    4.74372e-11
+xzlc16.gnd.n42                     1.69218e-09
+xzlc16.gnd.n102                    2.19375e-11
+xzlc16.gnd.n101                    3.20164e-10
+xzlc16.gnd.n100                    4.76763e-10
+xzlc16.gnd.n95                     2.53513e-11
+xzlc16.gnd.n509                    2.47368e-11
+xzlc16.gnd.n508                    4.76104e-10
+xzlc16.gnd.n507                    3.19482e-10
+xzlc16.gnd.n497                    2.12115e-11
+xzlc16.gnd.n541                    2.50275e-11
+xzlc16.gnd.n540                    4.78082e-10
+xzlc16.gnd.n539                    3.22346e-10
+xzlc16.gnd.n538                    2.14878e-11
+xzlc16.gnd.n106                    4.76822e-10
+xzlc16.gnd.n105                    2.54202e-11
+xzlc16.gnd.n108                    2.19815e-11
+xzlc16.gnd.n107                    3.20218e-10
+xzlc16.gnd.n298                    4.44193e-11
+xzlc16.gnd.n297                    6.42852e-10
+xzlc16.gnd.n296                    9.53671e-10
+xzlc16.gnd.n295                    4.63594e-11
+xzlc16.gnd.n395                    2.11017e-11
+xzlc16.gnd.n394                    3.19352e-10
+xzlc16.gnd.n393                    4.75963e-10
+xzlc16.gnd.n202                    2.45758e-11
+xzlc16.gnd.n371                    2.13154e-11
+xzlc16.gnd.n370                    3.22166e-10
+xzlc16.gnd.n369                    4.77898e-10
+xzlc16.gnd.n221                    2.48359e-11
+xzlc16.gnd.n239                    2.45263e-11
+xzlc16.gnd.n238                    4.75917e-10
+xzlc16.gnd.n237                    3.19307e-10
+xzlc16.gnd.n231                    2.10597e-11
+xzlc16.gnd.n149                    3.19318e-10
+xzlc16.gnd.n45                     2.10698e-11
+xzlc16.gnd.n151                    2.45377e-11
+xzlc16.gnd.n150                    4.75928e-10
+xzlc16.gnd.n572                     2.4592e-11
+xzlc16.gnd.n571                    4.75978e-10
+xzlc16.gnd.n570                    3.19365e-10
+xzlc16.gnd.n569                    2.11131e-11
+xzlc16.gnd.n617                    4.76108e-10
+xzlc16.gnd.n616                     2.4741e-11
+xzlc16.gnd.n619                    2.12147e-11
+xzlc16.gnd.n618                    3.19486e-10
+xzlc16.gnd.n533                    1.26402e-12
+xzlc16.gnd.n72                     1.22778e-12
+xzlc16.gnd.n88                     1.29744e-12
+xzlc16.gnd.n457                    2.72259e-11
+xzlc16.gnd.n438                     1.1938e-12
+xzlc16.gnd.n423                    1.23976e-12
+xzlc16.gnd.n319                    2.68593e-11
+xzlc16.gnd.n232                    1.16687e-12
+xzlc16.gnd.n250                    1.21207e-12
+xzlc16.gnd.n376                    1.59257e-12
+xzlc16.gnd.n199                    1.27088e-12
+xzlc16.gnd.n577                    1.28783e-12
+xzlc16.gnd.n14                     1.30055e-12
+xzlc16.gnd.n54                     1.21452e-12
+xzlc16.gnd.n157                    1.43598e-12
+xzlc16.gnd.n494                    1.26033e-12
+xzlc16.gnd.n73                     5.36071e-13
+xzlc16.gnd.n71                     2.47036e-14
+xzlc16.gnd.n314                    5.10086e-15
+xzlc16.gnd.n313                    6.28073e-12
+xzlc16.gnd.n532                    5.82656e-13
+xzlc16.gnd.n29                     4.57272e-13
+xzlc16.gnd.n534                    8.17642e-13
+xzlc16.gnd.n25                     1.56489e-12
+xzlc16.gnd.n546                     7.7233e-12
+xzlc16.gnd.n550                    3.15034e-12
+xzlc16.gnd.n549                    1.82143e-11
+xzlc16.gnd.n83                     1.44892e-12
+xzlc16.gnd.n66                     7.88045e-13
+xzlc16.gnd.n84                     7.49343e-12
+xzlc16.gnd.n129                    1.80159e-11
+xzlc16.gnd.n128                     3.1269e-12
+xzlc16.gnd.n121                     2.2668e-12
+xzlc16.gnd.n94                     1.45497e-12
+xzlc16.gnd.n120                     1.0413e-11
+xzlc16.gnd.n113                    6.40514e-12
+xzlc16.gnd.n112                    2.34563e-12
+xzlc16.gnd.n35                     3.26428e-12
+xzlc16.gnd.n477                    1.26883e-11
+xzlc16.gnd.n506                     1.0058e-11
+xzlc16.gnd.n2                      3.46344e-12
+xzlc16.gnd.n518                    2.31129e-12
+xzlc16.gnd.n491                    1.18136e-11
+xzlc16.gnd.n517                    1.37034e-12
+xzlc16.gnd.n492                    5.47797e-12
+xzlc16.gnd.n555                    4.09082e-12
+xzlc16.gnd.n22                     1.03081e-11
+xzlc16.gnd.n554                    1.26872e-11
+xzlc16.gnd.n529                    1.05811e-12
+xzlc16.gnd.n528                    4.83697e-12
+xzlc16.gnd.n27                     1.16144e-12
+xzlc16.gnd.n537                    5.56889e-12
+xzlc16.gnd.n482                    2.99206e-12
+xzlc16.gnd.n33                      1.0543e-11
+xzlc16.gnd.n483                    5.37558e-12
+xzlc16.gnd.n117                    1.25454e-11
+xzlc16.gnd.n116                    3.23289e-12
+xzlc16.gnd.n97                     2.34099e-12
+xzlc16.gnd.n109                    6.41792e-12
+xzlc16.gnd.n125                    2.35016e-12
+xzlc16.gnd.n89                     8.47819e-13
+xzlc16.gnd.n124                    1.25102e-11
+xzlc16.gnd.n79                     7.98633e-13
+xzlc16.gnd.n65                     2.63665e-13
+xzlc16.gnd.n87                     7.02073e-13
+xzlc16.gnd.n77                     2.37201e-12
+xzlc16.gnd.n68                     1.00884e-11
+xzlc16.gnd.n458                    1.14884e-11
+xzlc16.gnd.n428                    2.54913e-12
+xzlc16.gnd.n456                    1.49404e-11
+xzlc16.gnd.n429                    7.77591e-12
+xzlc16.gnd.n449                     2.9099e-11
+xzlc16.gnd.n447                    3.49431e-11
+xzlc16.gnd.n434                    6.52461e-12
+xzlc16.gnd.n179                    1.54244e-12
+xzlc16.gnd.n469                    2.30292e-12
+xzlc16.gnd.n468                    1.15751e-11
+xzlc16.gnd.n276                    2.69599e-12
+xzlc16.gnd.n275                    1.40214e-11
+xzlc16.gnd.n280                    1.40771e-12
+xzlc16.gnd.n282                    5.35929e-12
+xzlc16.gnd.n281                    2.87254e-11
+xzlc16.gnd.n290                    6.65673e-12
+xzlc16.gnd.n289                    3.48593e-11
+xzlc16.gnd.n264                    2.16264e-12
+xzlc16.gnd.n302                    5.50171e-12
+xzlc16.gnd.n305                    2.86225e-11
+xzlc16.gnd.n261                    3.46074e-11
+xzlc16.gnd.n465                    1.15322e-12
+xzlc16.gnd.n182                    6.48759e-13
+xzlc16.gnd.n444                    1.10321e-12
+xzlc16.gnd.n443                    3.86917e-13
+xzlc16.gnd.n439                    6.59783e-13
+xzlc16.gnd.n452                    1.02802e-11
+xzlc16.gnd.n430                    2.70415e-12
+xzlc16.gnd.n424                    5.44631e-13
+xzlc16.gnd.n406                    2.85304e-13
+xzlc16.gnd.n418                    7.71585e-12
+xzlc16.gnd.n409                    1.54835e-12
+xzlc16.gnd.n422                    8.02224e-13
+xzlc16.gnd.n416                    1.82451e-11
+xzlc16.gnd.n415                    3.19483e-12
+xzlc16.gnd.n324                    1.07896e-11
+xzlc16.gnd.n323                    4.45433e-12
+xzlc16.gnd.n322                    1.44203e-11
+xzlc16.gnd.n286                    8.16323e-13
+xzlc16.gnd.n285                    5.66741e-13
+xzlc16.gnd.n266                    2.43286e-12
+xzlc16.gnd.n294                    1.19368e-11
+xzlc16.gnd.n309                    3.52552e-12
+xzlc16.gnd.n262                    1.77138e-11
+xzlc16.gnd.n310                    1.81063e-12
+xzlc16.gnd.n317                    2.48715e-11
+xzlc16.gnd.n316                    4.20922e-12
+xzlc16.gnd.n400                    2.18626e-12
+xzlc16.gnd.n186                    9.77607e-12
+xzlc16.gnd.n392                    5.45164e-12
+xzlc16.gnd.n203                    1.36111e-12
+xzlc16.gnd.n208                    2.33704e-12
+xzlc16.gnd.n384                    1.20148e-11
+xzlc16.gnd.n382                    1.27737e-11
+xzlc16.gnd.n211                    3.99757e-12
+xzlc16.gnd.n220                    1.00845e-11
+xzlc16.gnd.n368                    5.48725e-12
+xzlc16.gnd.n222                    1.15133e-12
+xzlc16.gnd.n360                    1.07317e-12
+xzlc16.gnd.n359                    4.96085e-12
+xzlc16.gnd.n351                    5.10871e-12
+xzlc16.gnd.n350                    1.00886e-12
+xzlc16.gnd.n228                    6.16879e-13
+xzlc16.gnd.n342                    6.36035e-13
+xzlc16.gnd.n341                    2.68099e-13
+xzlc16.gnd.n233                    8.08921e-13
+xzlc16.gnd.n334                    2.36169e-12
+xzlc16.gnd.n333                    1.00937e-11
+xzlc16.gnd.n255                    7.49759e-12
+xzlc16.gnd.n254                    1.45342e-12
+xzlc16.gnd.n253                    7.77911e-13
+xzlc16.gnd.n330                    3.11095e-12
+xzlc16.gnd.n329                     1.7989e-11
+xzlc16.gnd.n338                    9.71576e-12
+xzlc16.gnd.n337                    1.95408e-12
+xzlc16.gnd.n240                    1.40504e-12
+xzlc16.gnd.n354                    1.20892e-11
+xzlc16.gnd.n227                    2.35293e-12
+xzlc16.gnd.n347                    1.37587e-12
+xzlc16.gnd.n346                    5.45541e-12
+xzlc16.gnd.n375                    1.16689e-12
+xzlc16.gnd.n217                    3.84651e-12
+xzlc16.gnd.n379                    1.50946e-12
+xzlc16.gnd.n216                    7.63856e-12
+xzlc16.gnd.n378                    9.81822e-13
+xzlc16.gnd.n387                    3.21406e-12
+xzlc16.gnd.n206                    1.82428e-11
+xzlc16.gnd.n201                    4.76445e-13
+xzlc16.gnd.n200                    6.07821e-13
+xzlc16.gnd.n197                    1.48788e-12
+xzlc16.gnd.n196                    7.58703e-12
+xzlc16.gnd.n198                    8.12735e-13
+xzlc16.gnd.n193                    1.81011e-11
+xzlc16.gnd.n192                    3.11857e-12
+xzlc16.gnd.n576                    6.33635e-13
+xzlc16.gnd.n566                    5.63378e-13
+xzlc16.gnd.n589                    8.23988e-13
+xzlc16.gnd.n588                    1.46491e-12
+xzlc16.gnd.n587                    7.54183e-12
+xzlc16.gnd.n584                    1.80719e-11
+xzlc16.gnd.n583                     3.1178e-12
+xzlc16.gnd.n13                     6.49926e-13
+xzlc16.gnd.n5                      5.70807e-13
+xzlc16.gnd.n612                    8.34413e-13
+xzlc16.gnd.n611                    1.46656e-12
+xzlc16.gnd.n15                     7.54064e-12
+xzlc16.gnd.n603                    1.81785e-11
+xzlc16.gnd.n602                    3.21697e-12
+xzlc16.gnd.n58                      1.4685e-12
+xzlc16.gnd.n57                     7.80936e-13
+xzlc16.gnd.n59                     7.53226e-12
+xzlc16.gnd.n137                    3.10023e-12
+xzlc16.gnd.n135                    1.80257e-11
+xzlc16.gnd.n147                     1.9663e-12
+xzlc16.gnd.n49                     1.40473e-12
+xzlc16.gnd.n152                    9.72825e-12
+xzlc16.gnd.n162                    1.37798e-12
+xzlc16.gnd.n161                    5.45403e-12
+xzlc16.gnd.n38                     2.36763e-12
+xzlc16.gnd.n174                    1.21422e-11
+xzlc16.gnd.n591                    2.28542e-12
+xzlc16.gnd.n568                    9.80355e-12
+xzlc16.gnd.n599                     2.3816e-12
+xzlc16.gnd.n18                     1.20057e-11
+xzlc16.gnd.n598                    1.36965e-12
+xzlc16.gnd.n565                    5.45594e-12
+xzlc16.gnd.n615                    1.00688e-11
+xzlc16.gnd.n10                     3.98571e-12
+xzlc16.gnd.n608                    1.27217e-11
+xzlc16.gnd.n170                     2.3456e-12
+xzlc16.gnd.n169                    1.20508e-11
+xzlc16.gnd.n8                       1.3723e-12
+xzlc16.gnd.n620                    5.49797e-12
+xzlc16.gnd.n156                    8.91248e-13
+xzlc16.gnd.n43                     2.34133e-12
+xzlc16.gnd.n167                     1.2457e-11
+xzlc16.gnd.n155                    1.49265e-12
+xzlc16.gnd.n47                     7.51413e-12
+xzlc16.gnd.n158                    9.01764e-13
+xzlc16.gnd.n144                    1.79869e-11
+xzlc16.gnd.n141                    3.06592e-12
+xzlc16.gnd.n521                    4.48971e-13
+xzlc16.gnd.n488                    5.79926e-13
+xzlc16.gnd.n514                    8.13339e-13
+xzlc16.gnd.n513                    1.53553e-12
+xzlc16.gnd.n495                    7.61616e-12
+xzlc16.gnd.n503                    1.80805e-11
+xzlc16.gnd.n502                     3.0732e-12
+xzlc16.gnd.n480                    8.00726e-15
+xzlc16.gnd.n278                    7.34896e-16
+xzlc16.gnd.n223                    1.41536e-14
+xzlc16.gnd.n172                    7.62011e-14
+xzlc16.gnd.n251                    2.28794e-15
+xzlc16.gnd.n55                     3.19131e-15
+xzlc16.gnd.n320                    1.00469e-13
+xzlc16.gnd.n327                    3.30628e-15
+xzlc16.gnd.n326                    1.47964e-13
+xzlc16.gnd.n132                    5.92064e-14
+xzlc16.gnd.n131                    1.24051e-14
+xzlc16.gnd.n552                    8.94278e-15
+xzlc16.gnd.n454                    7.22013e-15
+xzlc16.gnd.n413                    2.36942e-15
+xzlc16.gnd.n245                    3.42081e-14
+xzlc16.gnd.n389                    1.45755e-15
+xzlc16.gnd.n190                    1.12742e-15
+xzlc16.gnd.n581                    1.44522e-14
+xzlc16.gnd.n564                    3.63287e-14
+xzlc16.gnd.n133                    2.55513e-14
+xzlc16.gnd.n0                      2.13238e-15
+xzlc16.gnd.n414                    1.64676e-13
+xzlc16.gnd.n410                    3.27298e-13
+xzlc16.gnd.n419                    2.58172e-13
+xzlc16.gnd.n420                    9.25889e-14
+xzlc16.gnd.n421                    1.41767e-15
+xzlc16.gnd.n140                    1.58011e-14
+xzlc16.gnd.n145                    5.88873e-15
+xzlc16.gnd.n48                     4.57335e-14
+xzlc16.gnd.n154                    3.44105e-14
+xzlc16.gnd.n159                    9.95674e-15
+xzlc16.gnd.n44                     2.12728e-14
+xzlc16.gnd.n164                    1.44156e-14
+xzlc16.gnd.n166                    1.28788e-14
+xzlc16.gnd.n37                     3.43772e-13
+xzlc16.gnd.n41                     3.26053e-13
+xzlc16.gnd.n171                    8.72447e-16
+xzlc16.gnd.n6                      3.10663e-15
+xzlc16.gnd.n621                    3.61138e-14
+xzlc16.gnd.n11                     1.07338e-13
+xzlc16.gnd.n9                      1.95695e-11
+xzlc16.gnd.n614                    4.75488e-14
+xzlc16.gnd.n16                     6.43953e-15
+xzlc16.gnd.n609                    1.32887e-14
+xzlc16.gnd.n605                    2.83387e-13
+xzlc16.gnd.n563                    2.32881e-13
+xzlc16.gnd.n600                    6.90468e-14
+xzlc16.gnd.n597                    6.53899e-16
+xzlc16.gnd.n596                    8.39259e-15
+xzlc16.gnd.n574                    6.85381e-14
+xzlc16.gnd.n573                    1.94632e-11
+xzlc16.gnd.n575                    7.53298e-14
+xzlc16.gnd.n590                    1.53226e-14
+xzlc16.gnd.n567                    5.22056e-15
+xzlc16.gnd.n40                      3.8775e-13
+xzlc16.gnd.n175                    2.54567e-13
+xzlc16.gnd.n165                    8.66927e-15
+xzlc16.gnd.n163                     1.7725e-14
+xzlc16.gnd.n160                    2.10276e-14
+xzlc16.gnd.n148                    1.94166e-11
+xzlc16.gnd.n46                      2.1294e-14
+xzlc16.gnd.n153                    4.88384e-14
+xzlc16.gnd.n146                    3.28316e-14
+xzlc16.gnd.n139                    4.56307e-15
+xzlc16.gnd.n138                    1.45555e-14
+xzlc16.gnd.n134                    5.62469e-14
+xzlc16.gnd.n60                     6.48065e-14
+xzlc16.gnd.n53                     2.48631e-14
+xzlc16.gnd.n56                     1.27965e-15
+xzlc16.gnd.n601                    2.06411e-13
+xzlc16.gnd.n604                     2.9157e-13
+xzlc16.gnd.n17                     3.13638e-15
+xzlc16.gnd.n610                     5.2782e-15
+xzlc16.gnd.n613                    2.49516e-14
+xzlc16.gnd.n622                    3.19258e-15
+xzlc16.gnd.n7                      4.93843e-14
+xzlc16.gnd.n12                     9.71519e-14
+xzlc16.gnd.n580                     8.1425e-14
+xzlc16.gnd.n585                     1.2868e-13
+xzlc16.gnd.n586                    5.94151e-14
+xzlc16.gnd.n189                    7.96398e-14
+xzlc16.gnd.n194                    1.57414e-13
+xzlc16.gnd.n195                    1.18665e-13
+xzlc16.gnd.n185                    3.14179e-14
+xzlc16.gnd.n399                    2.69825e-15
+xzlc16.gnd.n398                    5.81077e-14
+xzlc16.gnd.n397                    6.25765e-14
+xzlc16.gnd.n391                    8.19554e-15
+xzlc16.gnd.n386                    1.96938e-13
+xzlc16.gnd.n207                    3.57013e-13
+xzlc16.gnd.n212                     1.3277e-13
+xzlc16.gnd.n380                     5.3442e-15
+xzlc16.gnd.n377                    1.96425e-15
+xzlc16.gnd.n374                    7.17917e-14
+xzlc16.gnd.n218                    4.80964e-14
+xzlc16.gnd.n366                    1.91642e-14
+xzlc16.gnd.n357                    2.56683e-13
+xzlc16.gnd.n353                     2.1047e-13
+xzlc16.gnd.n229                    8.75175e-16
+xzlc16.gnd.n348                    1.80568e-14
+xzlc16.gnd.n345                    2.81297e-14
+xzlc16.gnd.n236                    1.94056e-11
+xzlc16.gnd.n235                    6.35319e-15
+xzlc16.gnd.n339                    3.54088e-14
+xzlc16.gnd.n336                    1.73283e-14
+xzlc16.gnd.n241                    2.38248e-15
+xzlc16.gnd.n331                    4.38437e-14
+xzlc16.gnd.n328                    5.88942e-15
+xzlc16.gnd.n256                    2.58759e-14
+xzlc16.gnd.n249                    1.18105e-14
+xzlc16.gnd.n252                    7.00529e-16
+xzlc16.gnd.n332                    4.20554e-14
+xzlc16.gnd.n335                    3.19988e-15
+xzlc16.gnd.n234                    2.26774e-14
+xzlc16.gnd.n340                    2.40766e-14
+xzlc16.gnd.n343                    6.33256e-15
+xzlc16.gnd.n396                    1.94513e-11
+xzlc16.gnd.n390                    6.49823e-16
+xzlc16.gnd.n205                    4.00626e-16
+xzlc16.gnd.n385                    2.36981e-13
+xzlc16.gnd.n210                    3.62237e-13
+xzlc16.gnd.n381                    7.38384e-14
+xzlc16.gnd.n213                    6.49122e-15
+xzlc16.gnd.n219                    1.32603e-15
+xzlc16.gnd.n373                    8.63944e-14
+xzlc16.gnd.n372                    1.96539e-11
+xzlc16.gnd.n367                    3.52727e-14
+xzlc16.gnd.n362                    8.01895e-15
+xzlc16.gnd.n361                    8.25889e-15
+xzlc16.gnd.n358                    1.84632e-13
+xzlc16.gnd.n226                    2.44735e-13
+xzlc16.gnd.n352                    4.51218e-14
+xzlc16.gnd.n349                    1.32117e-14
+xzlc16.gnd.n230                    2.63898e-14
+xzlc16.gnd.n257                    1.33736e-13
+xzlc16.gnd.n325                    1.73947e-13
+xzlc16.gnd.n258                    7.70666e-14
+xzlc16.gnd.n321                    2.54832e-14
+xzlc16.gnd.n425                    9.86635e-16
+xzlc16.gnd.n426                    6.82561e-16
+xzlc16.gnd.n451                    2.63464e-13
+xzlc16.gnd.n432                    4.11817e-13
+xzlc16.gnd.n445                    3.39808e-13
+xzlc16.gnd.n442                    1.21304e-13
+xzlc16.gnd.n440                    1.85775e-16
+xzlc16.gnd.n178                    3.24338e-14
+xzlc16.gnd.n466                    2.69242e-14
+xzlc16.gnd.n183                     6.9167e-15
+xzlc16.gnd.n273                    1.07338e-13
+xzlc16.gnd.n284                     3.6139e-13
+xzlc16.gnd.n287                    4.49263e-13
+xzlc16.gnd.n267                    3.14912e-13
+xzlc16.gnd.n293                    9.99518e-14
+xzlc16.gnd.n300                    1.66057e-13
+xzlc16.gnd.n299                    4.02622e-11
+xzlc16.gnd.n263                    3.10469e-13
+xzlc16.gnd.n308                    1.76133e-13
+xzlc16.gnd.n311                    3.49457e-15
+xzlc16.gnd.n315                    7.57898e-15
+xzlc16.gnd.n312                    2.83345e-15
+xzlc16.gnd.n307                    1.51348e-13
+xzlc16.gnd.n306                    3.13979e-13
+xzlc16.gnd.n301                    1.89869e-13
+xzlc16.gnd.n292                    5.92529e-14
+xzlc16.gnd.n291                    2.90482e-13
+xzlc16.gnd.n288                    4.57474e-13
+xzlc16.gnd.n270                    3.95249e-13
+xzlc16.gnd.n283                     1.4604e-13
+xzlc16.gnd.n279                    6.90259e-16
+xzlc16.gnd.n277                    7.91075e-16
+xzlc16.gnd.n274                    4.90273e-15
+xzlc16.gnd.n467                    4.81738e-14
+xzlc16.gnd.n470                    1.73289e-14
+xzlc16.gnd.n441                    4.05783e-16
+xzlc16.gnd.n435                    2.31438e-13
+xzlc16.gnd.n446                    4.28816e-13
+xzlc16.gnd.n450                    3.90633e-13
+xzlc16.gnd.n431                    1.26345e-13
+xzlc16.gnd.n455                    3.93051e-15
+xzlc16.gnd.n427                     1.8485e-15
+xzlc16.gnd.n459                     4.1789e-15
+xzlc16.gnd.n460                    9.92173e-16
+xzlc16.gnd.n69                     4.29502e-14
+xzlc16.gnd.n76                     2.81102e-14
+xzlc16.gnd.n80                     4.26092e-16
+xzlc16.gnd.n81                     2.29126e-15
+xzlc16.gnd.n86                     2.73909e-15
+xzlc16.gnd.n61                     4.77277e-14
+xzlc16.gnd.n126                    2.53633e-14
+xzlc16.gnd.n123                    6.67455e-15
+xzlc16.gnd.n92                     5.20686e-13
+xzlc16.gnd.n118                    8.27333e-13
+xzlc16.gnd.n115                     9.7175e-13
+xzlc16.gnd.n98                     1.00675e-12
+xzlc16.gnd.n110                    1.00697e-12
+xzlc16.gnd.n104                    2.03242e-11
+xzlc16.gnd.n36                     9.60837e-13
+xzlc16.gnd.n475                     7.5314e-13
+xzlc16.gnd.n481                    3.24421e-13
+xzlc16.gnd.n484                    2.95316e-15
+xzlc16.gnd.n485                    2.58308e-14
+xzlc16.gnd.n527                    1.51512e-14
+xzlc16.gnd.n530                    1.56582e-14
+xzlc16.gnd.n28                     5.68358e-15
+xzlc16.gnd.n536                    9.81597e-14
+xzlc16.gnd.n543                    2.78726e-13
+xzlc16.gnd.n542                    1.98337e-11
+xzlc16.gnd.n544                    2.85372e-13
+xzlc16.gnd.n556                     1.1301e-13
+xzlc16.gnd.n553                    1.30577e-14
+xzlc16.gnd.n486                    8.51396e-15
+xzlc16.gnd.n490                    1.12585e-14
+xzlc16.gnd.n519                    1.23766e-14
+xzlc16.gnd.n516                    1.46843e-14
+xzlc16.gnd.n493                    4.23288e-15
+xzlc16.gnd.n511                     1.1784e-13
+xzlc16.gnd.n510                    1.95677e-11
+xzlc16.gnd.n505                    1.68791e-13
+xzlc16.gnd.n498                    9.82978e-14
+xzlc16.gnd.n630                     1.1851e-14
+xzlc16.gnd.n34                     5.45607e-13
+xzlc16.gnd.n476                    8.42592e-13
+xzlc16.gnd.n103                    9.80402e-13
+xzlc16.gnd.n111                    1.00889e-12
+xzlc16.gnd.n114                    1.00254e-12
+xzlc16.gnd.n99                     2.02777e-11
+xzlc16.gnd.n96                     9.49959e-13
+xzlc16.gnd.n119                     7.3433e-13
+xzlc16.gnd.n122                    2.97368e-13
+xzlc16.gnd.n93                     8.20931e-16
+xzlc16.gnd.n127                    3.78015e-14
+xzlc16.gnd.n130                     5.1245e-14
+xzlc16.gnd.n85                     6.18643e-15
+xzlc16.gnd.n82                      3.2971e-15
+xzlc16.gnd.n75                     7.11121e-15
+xzlc16.gnd.n74                     3.40571e-14
+xzlc16.gnd.n21                     9.81606e-14
+xzlc16.gnd.n20                      2.8085e-13
+xzlc16.gnd.n545                    2.82478e-13
+xzlc16.gnd.n26                     1.11864e-13
+xzlc16.gnd.n535                    4.39483e-15
+xzlc16.gnd.n526                    2.10119e-14
+xzlc16.gnd.n30                     1.53821e-14
+xzlc16.gnd.n531                    1.51859e-14
+xzlc16.gnd.n1                      1.09518e-14
+xzlc16.gnd.n504                    1.18394e-13
+xzlc16.gnd.n496                    1.67893e-13
+xzlc16.gnd.n512                    9.66676e-14
+xzlc16.gnd.n515                    5.97457e-15
+xzlc16.gnd.n487                    1.00508e-14
+xzlc16.gnd.n520                     1.0329e-14
+xzlc16.gnd.n489                    1.47956e-14
+xzlc16.gnd.n473                     2.8215e-13
+xzlc16.gnd.n176                    8.46632e-14
+xzlc16.gnd.n344                    9.38333e-15
+xzlc16.gnd.n19                     1.27364e-13
+xzlc16.gnd.n472                    2.37011e-13
+xzlc16.gnd.n177                    1.75769e-15
+xzlc16.gnd.n559                    2.76466e-13
+xzlc16.gnd.n558                    1.48654e-13
+xzlc16.gnd.n471                    6.24823e-17
+xzlc16.gnd.n265                    2.23162e-14
+xzlc16.gnd.n474                    9.12476e-13
+xzlc16.gnd.n557                    2.44748e-13
+xzlc16.gnd.n408                    8.63069e-16
+va3#branch                                   0
+va0#branch                                   0
+va1#branch                                   0
+va2#branch                                   0
+va4#branch                                   0
+va5#branch                                   0
+va6#branch                                   0
+va7#branch                                   0
+va8#branch                                   0
+va9#branch                                   0
+va10#branch                                  0
+va11#branch                                  0
+va12#branch                                  0
+va13#branch                                  0
+va14#branch                                  0
+va15#branch                                  0
+vvss#branch                                  0
+vvdd#branch                       -2.70619e-10
+
+ Reference value :  5.28000e-12 Reference value :  3.42800e-11 Reference value :  6.52800e-11 Reference value :  9.62800e-11 Reference value :  1.28280e-10 Reference value :  1.59280e-10 Reference value :  1.89280e-10 Reference value :  2.21280e-10 Reference value :  2.55280e-10 Reference value :  2.90280e-10 Reference value :  3.25280e-10 Reference value :  3.59280e-10 Reference value :  3.88280e-10 Reference value :  4.18280e-10 Reference value :  4.52280e-10 Reference value :  4.86280e-10 Reference value :  5.13280e-10 Reference value :  5.45280e-10 Reference value :  5.78280e-10 Reference value :  6.08280e-10 Reference value :  6.37280e-10 Reference value :  6.65280e-10 Reference value :  6.91280e-10 Reference value :  7.23280e-10 Reference value :  7.58280e-10 Reference value :  7.91280e-10 Reference value :  8.21280e-10 Reference value :  8.51280e-10 Reference value :  8.81280e-10 Reference value :  9.13280e-10 Reference value :  9.46280e-10 Reference value :  9.81280e-10 Reference value :  1.01228e-09 Reference value :  1.04328e-09 Reference value :  1.07828e-09 Reference value :  1.11128e-09 Reference value :  1.13428e-09 Reference value :  1.16228e-09 Reference value :  1.18928e-09 Reference value :  1.22128e-09 Reference value :  1.24328e-09 Reference value :  1.26228e-09 Reference value :  1.28328e-09 Reference value :  1.30528e-09 Reference value :  1.32828e-09 Reference value :  1.35428e-09 Reference value :  1.38728e-09 Reference value :  1.41928e-09 Reference value :  1.45028e-09 Reference value :  1.48528e-09 Reference value :  1.50728e-09 Reference value :  1.53128e-09 Reference value :  1.55128e-09 Reference value :  1.57228e-09 Reference value :  1.60528e-09 Reference value :  1.62928e-09 Reference value :  1.65728e-09 Reference value :  1.68528e-09 Reference value :  1.71728e-09 Reference value :  1.74328e-09 Reference value :  1.76828e-09 Reference value :  1.79528e-09 Reference value :  1.82128e-09 Reference value :  1.85028e-09 Reference value :  1.87728e-09 Reference value :  1.90728e-09 Reference value :  1.93528e-09 Reference value :  1.96028e-09 Reference value :  1.98228e-09 Reference value :  2.00030e-09 Reference value :  2.01950e-09 Reference value :  2.03650e-09 Reference value :  2.06050e-09 Reference value :  2.08350e-09 Reference value :  2.10250e-09 Reference value :  2.12650e-09 Reference value :  2.14750e-09 Reference value :  2.17350e-09 Reference value :  2.19850e-09 Reference value :  2.22650e-09 Reference value :  2.25950e-09 Reference value :  2.28850e-09 Reference value :  2.31350e-09 Reference value :  2.33850e-09 Reference value :  2.35750e-09 Reference value :  2.37950e-09 Reference value :  2.41250e-09 Reference value :  2.44550e-09 Reference value :  2.47650e-09 Reference value :  2.50750e-09 Reference value :  2.54050e-09 Reference value :  2.57350e-09 Reference value :  2.60650e-09 Reference value :  2.64150e-09 Reference value :  2.67450e-09 Reference value :  2.70650e-09 Reference value :  2.73550e-09 Reference value :  2.76350e-09 Reference value :  2.79550e-09 Reference value :  2.82750e-09 Reference value :  2.85850e-09 Reference value :  2.88850e-09 Reference value :  2.92250e-09 Reference value :  2.95550e-09 Reference value :  2.98550e-09 Reference value :  3.01550e-09 Reference value :  3.04550e-09 Reference value :  3.07850e-09 Reference value :  3.10950e-09 Reference value :  3.14250e-09 Reference value :  3.17550e-09 Reference value :  3.20450e-09 Reference value :  3.23450e-09 Reference value :  3.26850e-09 Reference value :  3.30150e-09 Reference value :  3.33450e-09 Reference value :  3.36850e-09 Reference value :  3.40050e-09 Reference value :  3.43350e-09 Reference value :  3.46650e-09 Reference value :  3.49850e-09 Reference value :  3.53250e-09 Reference value :  3.56350e-09 Reference value :  3.58850e-09 Reference value :  3.61850e-09 Reference value :  3.64850e-09 Reference value :  3.67850e-09 Reference value :  3.71050e-09 Reference value :  3.74050e-09 Reference value :  3.77450e-09 Reference value :  3.80650e-09 Reference value :  3.84050e-09 Reference value :  3.87350e-09 Reference value :  3.90750e-09 Reference value :  3.93850e-09 Reference value :  3.97150e-09 Reference value :  4.00250e-09 Reference value :  4.03550e-09 Reference value :  4.06250e-09 Reference value :  4.09350e-09 Reference value :  4.12350e-09 Reference value :  4.15550e-09 Reference value :  4.18850e-09 Reference value :  4.22050e-09 Reference value :  4.25150e-09 Reference value :  4.27950e-09 Reference value :  4.31050e-09 Reference value :  4.34350e-09 Reference value :  4.37450e-09 Reference value :  4.40650e-09 Reference value :  4.43750e-09 Reference value :  4.46850e-09 Reference value :  4.49450e-09 Reference value :  4.52950e-09 Reference value :  4.56250e-09 Reference value :  4.59150e-09 Reference value :  4.62350e-09 Reference value :  4.65750e-09 Reference value :  4.69050e-09 Reference value :  4.72550e-09 Reference value :  4.75550e-09 Reference value :  4.78750e-09 Reference value :  4.81750e-09 Reference value :  4.84750e-09 Reference value :  4.87950e-09 Reference value :  4.90750e-09 Reference value :  4.93650e-09 Reference value :  4.96750e-09 Reference value :  4.99950e-09 Reference value :  5.03250e-09 Reference value :  5.06350e-09 Reference value :  5.09850e-09 Reference value :  5.12950e-09 Reference value :  5.16150e-09 Reference value :  5.19450e-09 Reference value :  5.22650e-09 Reference value :  5.26150e-09 Reference value :  5.29250e-09 Reference value :  5.32550e-09 Reference value :  5.35650e-09 Reference value :  5.38750e-09 Reference value :  5.41450e-09 Reference value :  5.44750e-09 Reference value :  5.48050e-09 Reference value :  5.51350e-09 Reference value :  5.54350e-09 Reference value :  5.57150e-09 Reference value :  5.60450e-09 Reference value :  5.63750e-09 Reference value :  5.66750e-09 Reference value :  5.69850e-09 Reference value :  5.72950e-09 Reference value :  5.76250e-09 Reference value :  5.79250e-09 Reference value :  5.82550e-09 Reference value :  5.85650e-09 Reference value :  5.88950e-09 Reference value :  5.92250e-09 Reference value :  5.95350e-09 Reference value :  5.98550e-09 Reference value :  6.01950e-09 Reference value :  6.05350e-09 Reference value :  6.08450e-09 Reference value :  6.11750e-09 Reference value :  6.15150e-09 Reference value :  6.18150e-09 Reference value :  6.20850e-09 Reference value :  6.23950e-09 Reference value :  6.27550e-09 Reference value :  6.30650e-09 Reference value :  6.34150e-09 Reference value :  6.37650e-09 Reference value :  6.40750e-09 Reference value :  6.43350e-09 Reference value :  6.46150e-09 Reference value :  6.49250e-09 Reference value :  6.52750e-09 Reference value :  6.56050e-09 Reference value :  6.59250e-09 Reference value :  6.62450e-09 Reference value :  6.65850e-09 Reference value :  6.69250e-09 Reference value :  6.72350e-09 Reference value :  6.75650e-09 Reference value :  6.79050e-09 Reference value :  6.82050e-09 Reference value :  6.85350e-09 Reference value :  6.88350e-09 Reference value :  6.91450e-09 Reference value :  6.94850e-09 Reference value :  6.98350e-09 Reference value :  7.01750e-09 Reference value :  7.05050e-09 Reference value :  7.07750e-09 Reference value :  7.11050e-09 Reference value :  7.14450e-09 Reference value :  7.17950e-09 Reference value :  7.21350e-09 Reference value :  7.24550e-09 Reference value :  7.27850e-09 Reference value :  7.31350e-09 Reference value :  7.34550e-09 Reference value :  7.37850e-09 Reference value :  7.40850e-09 Reference value :  7.43950e-09 Reference value :  7.47150e-09 Reference value :  7.50650e-09 Reference value :  7.53950e-09 Reference value :  7.57050e-09 Reference value :  7.60250e-09 Reference value :  7.63650e-09 Reference value :  7.66950e-09 Reference value :  7.70250e-09 Reference value :  7.73150e-09 Reference value :  7.76450e-09 Reference value :  7.79750e-09 Reference value :  7.82450e-09 Reference value :  7.85550e-09 Reference value :  7.88550e-09 Reference value :  7.91650e-09 Reference value :  7.94850e-09 Reference value :  7.98350e-09 Reference value :  8.01750e-09 Reference value :  8.04850e-09 Reference value :  8.08250e-09 Reference value :  8.11350e-09 Reference value :  8.14450e-09 Reference value :  8.17650e-09 Reference value :  8.20550e-09 Reference value :  8.23550e-09 Reference value :  8.26750e-09 Reference value :  8.29850e-09 Reference value :  8.33250e-09 Reference value :  8.36250e-09 Reference value :  8.39050e-09 Reference value :  8.41850e-09 Reference value :  8.45250e-09 Reference value :  8.48550e-09 Reference value :  8.51950e-09 Reference value :  8.55350e-09 Reference value :  8.58750e-09 Reference value :  8.61750e-09 Reference value :  8.65050e-09 Reference value :  8.68250e-09 Reference value :  8.71350e-09 Reference value :  8.74750e-09 Reference value :  8.77850e-09 Reference value :  8.81250e-09 Reference value :  8.84150e-09 Reference value :  8.86550e-09 Reference value :  8.89650e-09 Reference value :  8.92850e-09 Reference value :  8.95950e-09 Reference value :  8.99250e-09 Reference value :  9.02350e-09 Reference value :  9.05650e-09 Reference value :  9.08950e-09 Reference value :  9.12350e-09 Reference value :  9.15650e-09 Reference value :  9.18950e-09 Reference value :  9.22250e-09 Reference value :  9.25150e-09 Reference value :  9.28150e-09 Reference value :  9.31350e-09 Reference value :  9.34250e-09 Reference value :  9.36850e-09 Reference value :  9.39650e-09 Reference value :  9.42650e-09 Reference value :  9.45650e-09 Reference value :  9.48450e-09 Reference value :  9.51350e-09 Reference value :  9.54650e-09 Reference value :  9.57750e-09 Reference value :  9.60950e-09 Reference value :  9.64150e-09 Reference value :  9.67450e-09 Reference value :  9.70950e-09 Reference value :  9.74350e-09 Reference value :  9.77750e-09 Reference value :  9.81250e-09 Reference value :  9.84550e-09 Reference value :  9.87650e-09 Reference value :  9.91050e-09 Reference value :  9.94450e-09 Reference value :  9.97250e-09 Reference value :  1.00005e-08 Reference value :  1.00295e-08 Reference value :  1.00615e-08 Reference value :  1.00935e-08 Reference value :  1.01275e-08 Reference value :  1.01555e-08 Reference value :  1.01865e-08 Reference value :  1.02185e-08 Reference value :  1.02495e-08 Reference value :  1.02825e-08 Reference value :  1.03145e-08 Reference value :  1.03425e-08 Reference value :  1.03745e-08 Reference value :  1.04075e-08 Reference value :  1.04395e-08 Reference value :  1.04695e-08 Reference value :  1.05005e-08 Reference value :  1.05355e-08 Reference value :  1.05725e-08 Reference value :  1.06055e-08 Reference value :  1.06385e-08 Reference value :  1.06725e-08 Reference value :  1.07045e-08 Reference value :  1.07355e-08 Reference value :  1.07645e-08 Reference value :  1.07915e-08 Reference value :  1.08215e-08 Reference value :  1.08525e-08 Reference value :  1.08855e-08 Reference value :  1.09175e-08 Reference value :  1.09455e-08 Reference value :  1.09765e-08 Reference value :  1.10065e-08 Reference value :  1.10405e-08 Reference value :  1.10715e-08 Reference value :  1.11005e-08 Reference value :  1.11335e-08 Reference value :  1.11605e-08 Reference value :  1.11925e-08 Reference value :  1.12235e-08 Reference value :  1.12565e-08 Reference value :  1.12895e-08 Reference value :  1.13185e-08 Reference value :  1.13515e-08 Reference value :  1.13815e-08 Reference value :  1.14085e-08 Reference value :  1.14375e-08 Reference value :  1.14685e-08 Reference value :  1.14965e-08 Reference value :  1.15245e-08 Reference value :  1.15535e-08 Reference value :  1.15845e-08 Reference value :  1.16135e-08 Reference value :  1.16425e-08 Reference value :  1.16745e-08 Reference value :  1.17055e-08 Reference value :  1.17375e-08 Reference value :  1.17675e-08 Reference value :  1.17985e-08 Reference value :  1.18305e-08 Reference value :  1.18655e-08 Reference value :  1.18965e-08 Reference value :  1.19295e-08 Reference value :  1.19645e-08 Reference value :  1.19965e-08 Reference value :  1.20185e-08 Reference value :  1.20445e-08 Reference value :  1.20605e-08 Reference value :  1.20945e-08 Reference value :  1.21275e-08 Reference value :  1.21575e-08 Reference value :  1.21895e-08 Reference value :  1.22205e-08 Reference value :  1.22515e-08 Reference value :  1.22805e-08 Reference value :  1.23145e-08 Reference value :  1.23465e-08 Reference value :  1.23775e-08 Reference value :  1.24095e-08 Reference value :  1.24425e-08 Reference value :  1.24725e-08 Reference value :  1.25065e-08 Reference value :  1.25345e-08 Reference value :  1.25655e-08 Reference value :  1.25955e-08 Reference value :  1.26275e-08 Reference value :  1.26525e-08 Reference value :  1.26845e-08 Reference value :  1.27195e-08 Reference value :  1.27445e-08 Reference value :  1.27725e-08 Reference value :  1.28025e-08 Reference value :  1.28345e-08 Reference value :  1.28605e-08 Reference value :  1.28925e-08 Reference value :  1.29225e-08 Reference value :  1.29505e-08 Reference value :  1.29855e-08 Reference value :  1.30195e-08 Reference value :  1.30535e-08 Reference value :  1.30875e-08 Reference value :  1.31195e-08 Reference value :  1.31525e-08 Reference value :  1.31845e-08 Reference value :  1.32205e-08 Reference value :  1.32525e-08 Reference value :  1.32855e-08 Reference value :  1.33155e-08 Reference value :  1.33495e-08 Reference value :  1.33805e-08 Reference value :  1.34115e-08 Reference value :  1.34445e-08 Reference value :  1.34785e-08 Reference value :  1.35105e-08 Reference value :  1.35425e-08 Reference value :  1.35755e-08 Reference value :  1.36095e-08 Reference value :  1.36415e-08 Reference value :  1.36735e-08 Reference value :  1.37035e-08 Reference value :  1.37375e-08 Reference value :  1.37685e-08 Reference value :  1.38015e-08 Reference value :  1.38345e-08 Reference value :  1.38665e-08 Reference value :  1.38995e-08 Reference value :  1.39295e-08 Reference value :  1.39615e-08 Reference value :  1.39885e-08 Reference value :  1.40205e-08 Reference value :  1.40545e-08 Reference value :  1.40835e-08 Reference value :  1.41125e-08 Reference value :  1.41435e-08 Reference value :  1.41725e-08 Reference value :  1.42045e-08 Reference value :  1.42375e-08 Reference value :  1.42705e-08 Reference value :  1.43025e-08 Reference value :  1.43345e-08 Reference value :  1.43675e-08 Reference value :  1.43995e-08 Reference value :  1.44315e-08 Reference value :  1.44645e-08 Reference value :  1.44975e-08 Reference value :  1.45295e-08 Reference value :  1.45615e-08 Reference value :  1.45935e-08 Reference value :  1.46245e-08 Reference value :  1.46545e-08 Reference value :  1.46865e-08 Reference value :  1.47155e-08 Reference value :  1.47445e-08 Reference value :  1.47755e-08 Reference value :  1.48075e-08 Reference value :  1.48395e-08 Reference value :  1.48725e-08 Reference value :  1.49045e-08 Reference value :  1.49365e-08 Reference value :  1.49675e-08 Reference value :  1.50005e-08 Reference value :  1.50325e-08 Reference value :  1.50625e-08 Reference value :  1.50955e-08 Reference value :  1.51265e-08 Reference value :  1.51595e-08 Reference value :  1.51915e-08 Reference value :  1.52235e-08 Reference value :  1.52525e-08 Reference value :  1.52815e-08 Reference value :  1.53075e-08 Reference value :  1.53395e-08 Reference value :  1.53725e-08 Reference value :  1.54045e-08 Reference value :  1.54365e-08 Reference value :  1.54675e-08 Reference value :  1.55025e-08 Reference value :  1.55355e-08 Reference value :  1.55665e-08 Reference value :  1.55995e-08 Reference value :  1.56255e-08 Reference value :  1.56565e-08 Reference value :  1.56805e-08 Reference value :  1.57105e-08 Reference value :  1.57445e-08 Reference value :  1.57755e-08 Reference value :  1.58075e-08 Reference value :  1.58365e-08 Reference value :  1.58685e-08 Reference value :  1.59015e-08 Reference value :  1.59295e-08 Reference value :  1.59615e-08 Reference value :  1.59935e-08 Reference value :  1.60275e-08 Reference value :  1.60595e-08 Reference value :  1.60905e-08 Reference value :  1.61235e-08 Reference value :  1.61565e-08 Reference value :  1.61865e-08 Reference value :  1.62165e-08 Reference value :  1.62465e-08 Reference value :  1.62805e-08 Reference value :  1.63135e-08 Reference value :  1.63485e-08 Reference value :  1.63815e-08 Reference value :  1.64165e-08 Reference value :  1.64505e-08 Reference value :  1.64855e-08 Reference value :  1.65185e-08 Reference value :  1.65515e-08 Reference value :  1.65855e-08 Reference value :  1.66135e-08 Reference value :  1.66445e-08 Reference value :  1.66785e-08 Reference value :  1.67105e-08 Reference value :  1.67455e-08 Reference value :  1.67755e-08 Reference value :  1.68075e-08 Reference value :  1.68385e-08 Reference value :  1.68675e-08 Reference value :  1.68985e-08 Reference value :  1.69295e-08 Reference value :  1.69585e-08 Reference value :  1.69915e-08 Reference value :  1.70225e-08 Reference value :  1.70515e-08 Reference value :  1.70815e-08 Reference value :  1.71105e-08 Reference value :  1.71385e-08 Reference value :  1.71725e-08 Reference value :  1.72055e-08 Reference value :  1.72375e-08 Reference value :  1.72615e-08 Reference value :  1.72925e-08 Reference value :  1.73245e-08 Reference value :  1.73535e-08 Reference value :  1.73855e-08 Reference value :  1.74175e-08 Reference value :  1.74445e-08 Reference value :  1.74735e-08 Reference value :  1.75035e-08 Reference value :  1.75355e-08 Reference value :  1.75675e-08 Reference value :  1.75935e-08 Reference value :  1.76225e-08 Reference value :  1.76545e-08 Reference value :  1.76865e-08 Reference value :  1.77165e-08 Reference value :  1.77495e-08 Reference value :  1.77835e-08 Reference value :  1.78155e-08 Reference value :  1.78455e-08 Reference value :  1.78755e-08 Reference value :  1.79015e-08 Reference value :  1.79305e-08 Reference value :  1.79565e-08 Reference value :  1.79765e-08 Reference value :  1.79975e-08 Reference value :  1.80225e-08 Reference value :  1.80475e-08 Reference value :  1.80825e-08 Reference value :  1.81285e-08 Reference value :  1.81685e-08 Reference value :  1.81905e-08 Reference value :  1.82135e-08 Reference value :  1.82415e-08 Reference value :  1.82675e-08 Reference value :  1.82975e-08 Reference value :  1.83275e-08 Reference value :  1.83565e-08 Reference value :  1.83865e-08 Reference value :  1.84075e-08 Reference value :  1.84315e-08 Reference value :  1.84525e-08 Reference value :  1.84735e-08 Reference value :  1.85025e-08 Reference value :  1.85235e-08 Reference value :  1.85485e-08 Reference value :  1.85755e-08 Reference value :  1.85985e-08 Reference value :  1.86305e-08 Reference value :  1.86655e-08 Reference value :  1.87005e-08 Reference value :  1.87345e-08 Reference value :  1.87685e-08 Reference value :  1.88035e-08 Reference value :  1.88395e-08 Reference value :  1.88755e-08 Reference value :  1.89075e-08 Reference value :  1.89425e-08 Reference value :  1.89755e-08 Reference value :  1.90105e-08 Reference value :  1.90455e-08 Reference value :  1.90765e-08 Reference value :  1.90975e-08 Reference value :  1.91285e-08 Reference value :  1.91585e-08 Reference value :  1.91875e-08 Reference value :  1.92165e-08 Reference value :  1.92485e-08 Reference value :  1.92805e-08 Reference value :  1.93095e-08 Reference value :  1.93405e-08 Reference value :  1.93725e-08 Reference value :  1.93995e-08 Reference value :  1.94315e-08 Reference value :  1.94605e-08 Reference value :  1.94925e-08 Reference value :  1.95235e-08 Reference value :  1.95535e-08 Reference value :  1.95785e-08 Reference value :  1.96075e-08 Reference value :  1.96405e-08 Reference value :  1.96715e-08 Reference value :  1.96975e-08 Reference value :  1.97265e-08 Reference value :  1.97525e-08 Reference value :  1.97725e-08 Reference value :  1.97945e-08 Reference value :  1.98255e-08 Reference value :  1.98575e-08 Reference value :  1.98905e-08 Reference value :  1.99235e-08 Reference value :  1.99515e-08 Reference value :  1.99805e-08
+No. of Data Rows : 20020
+
+Total analysis time (seconds) = 164.119
+
+Total elapsed time (seconds) = 201.894 
+
+Total DRAM available = 3915.250 MB.
+DRAM currently available =  168.488 MB.
+Maximum ngspice program size =  296.703 MB.
+Current ngspice program size =  233.211 MB.
+
+Shared ngspice pages =   10.336 MB.
+Text (code) pages =    6.434 MB.
+Stack = 0 bytes.
+Library pages =  277.383 MB.
+
