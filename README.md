@@ -325,6 +325,3 @@ Project `sky130_16bit_zlc` đã hoàn thành một mạch Zero Leading Counter 1
 - LVS pass cho tất cả các cấp `zlc2`, `zlc4`, `zlc8`, `zlc16`.
 - Post-layout simulation đã chạy trên extracted RC netlist.
 
-
-
-
