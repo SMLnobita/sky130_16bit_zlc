@@ -1,9 +1,8 @@
 * =============================================================
-* Testbench: 16-bit Zero Leading Counter: A[3] -> Y[0] delay
+* Testbench: 16-bit Zero Leading Counter: multi-case functional test
 * Process  : SkyWater SKY130 (sky130_fd_sc_hd)
-* Stimulus : Toggle A[3] while A[15:4]=0000, A[2]=1, A[1:0]=00
-*            This makes A[3] -> Y[0] an observable long path.
-* Measure  : propagation delay from A[3] 50% to Y[0] 50%
+* Stimulus : Apply multiple input patterns to A[15:0]
+* Check    : Verify Y[4:0] leading-zero count output
 * =============================================================
 
 * ---- Include PDK libs ----------------------------------------
@@ -20,35 +19,87 @@
 Vvdd VDD 0 DC 1.8
 Vvss VSS 0 DC 0
 
-* ---- Stimulus sources ----------------------------------------
-* A[15:4] = 0000_0000_0000
-Va15 A15 0 DC 0
-Va14 A14 0 DC 0
+* ---- Stimulus sources: multi-case functional test -------------
+* Case 1: 0ns    -> 2ns    : A = 16'h0004 => Y = 13 = 01101
+* Case 2: 2.05ns -> 4ns    : A = 16'h000C => Y = 12 = 01100
+* Case 3: 4.05ns -> 6ns    : A = 16'h0010 => Y = 11 = 01011
+* Case 4: 6.05ns -> 8ns    : A = 16'h0100 => Y = 7  = 00111
+* Case 5: 8.05ns -> 10ns   : A = 16'h4000 => Y = 1  = 00001
+* Case 6: 10.05ns -> 12ns  : A = 16'h8000 => Y = 0  = 00000
+* Case 7: 12.05ns -> 14ns  : A = 16'h0001 => Y = 15 = 01111
+* Case 8: 14.05ns -> 20ns  : A = 16'h0000 => Y = 16 = 10000
+
+Va15 A15 0 PWL(
++ 0ns     0
++ 10ns    0
++ 10.05ns 1.8
++ 12ns    1.8
++ 12.05ns 0
++ 20ns    0
++ )
+
+Va14 A14 0 PWL(
++ 0ns     0
++ 8ns     0
++ 8.05ns  1.8
++ 10ns    1.8
++ 10.05ns 0
++ 20ns    0
++ )
+
 Va13 A13 0 DC 0
 Va12 A12 0 DC 0
 Va11 A11 0 DC 0
 Va10 A10 0 DC 0
 Va9  A9  0 DC 0
-Va8  A8  0 DC 0
-Va7  A7  0 DC 0
-Va6  A6  0 DC 0
-Va5  A5  0 DC 0
-Va4  A4  0 DC 0
 
-* A[2] = 1, A[1:0] = 00
-Va2 A2 0 DC 1.8
-Va1 A1 0 DC 0
-Va0 A0 0 DC 0
+Va8 A8 0 PWL(
++ 0ns    0
++ 6ns    0
++ 6.05ns 1.8
++ 8ns    1.8
++ 8.05ns 0
++ 20ns   0
++ )
 
-* A[3]: step low -> high at t=2ns, then high -> low at t=12ns
-* Use piecewise-linear to get clean 50ps edges
+Va7 A7 0 DC 0
+Va6 A6 0 DC 0
+Va5 A5 0 DC 0
+
+Va4 A4 0 PWL(
++ 0ns    0
++ 4ns    0
++ 4.05ns 1.8
++ 6ns    1.8
++ 6.05ns 0
++ 20ns   0
++ )
+
 Va3 A3 0 PWL(
 + 0ns    0
 + 2ns    0
 + 2.05ns 1.8
-+ 12ns   1.8
-+ 12.05ns 0
++ 4ns    1.8
++ 4.05ns 0
 + 20ns   0
++ )
+
+Va2 A2 0 PWL(
++ 0ns    1.8
++ 4ns    1.8
++ 4.05ns 0
++ 20ns   0
++ )
+
+Va1 A1 0 DC 0
+
+Va0 A0 0 PWL(
++ 0ns     0
++ 12ns    0
++ 12.05ns 1.8
++ 14ns    1.8
++ 14.05ns 0
++ 20ns    0
 + )
 
 * ---- DUT: 16-bit Zero Leading Counter ------------------------
@@ -68,7 +119,7 @@ Cload_y4 Y4 0 0.01pF
 * ---- Batch mode ----------------------------------------------
 * run ngspice with -b flag, -r flag is used to write raw waveform file
 .tran 1ps 20ns
-.save v(A3) v(A2) v(Y0) v(Y1) v(Y2) v(Y3) v(Y4)
+.save v(A15) v(A14) v(A8) v(A4) v(A3) v(A2) v(A0) v(Y0) v(Y1) v(Y2) v(Y3) v(Y4)
 
 
 *----- Interactive mode----------------------------------------
